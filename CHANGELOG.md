@@ -1,5 +1,9 @@
 # MxScout - Release Notes
 
+## MxScout 1.10.1  (November 8, 2026)
+- Two clear restart choices everywhere: right-click a camera > Save Settings and Restart Camera... (saves the settings permanently, then restarts - the usual choice) or Restart Camera... (just restarts; unsaved settings are lost). Camera Settings has Save & Restart and Restart buttons, and Camera Actions uses the same names. Each shows its steps in the progress window until the camera is back.
+- FIX: in Camera Settings the Apply Changes button could be pushed off the edge of the window by the new buttons. Apply / Undo now have their own row and are always visible.
+
 ## MxScout 1.10.0  (November 8, 2026)
 - NEW: Restart Camera... right on a camera's right-click menu, and a Restart Camera button in Camera Settings (asks whether to store the settings first). Camera Actions > Store Settings and Reboot is still there too.
 - NEW: Progress for every change. Saving settings, Restore, Store, Restart and Set Network Address open a window listing each step in order - safety check, backup, send, read back, store, restart, "waiting for the camera to come back... 34 s", backup afterwards - each with a spinner while it runs, a green tick when done or a red cross with the reason, and how long it took. It closes itself 3 seconds after success (untick the box to keep it open); after a problem it stays open.
