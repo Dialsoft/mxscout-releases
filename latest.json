@@ -1,9 +1,9 @@
 {
-  "version": "1.10.1",
+  "version": "1.10.2",
   "published": "2026-11-08",
-  "notes": "•  Two clear restart choices everywhere: right-click a camera > Save Settings and Restart Camera... (saves the settings permanently, then restarts - the usual choice) or Restart Camera... (just restarts; unsaved settings are lost). Camera Settings has Save & Restart and Restart buttons, and Camera Actions uses the same names. Each shows its steps in the progress window until the camera is back.\n•  FIX: in Camera Settings the Apply Changes button could be pushed off the edge of the window by the new buttons. Apply / Undo now have their own row and are always visible.",
+  "notes": "•  FIX attempts for sound going silent:\n     - live sound now always starts within 1.5 seconds, even if the camera sends less sound than expected (before, it could wait forever for its buffer to fill);\n     - switching between tiles can no longer leave a hidden extra sound connection to a camera running;\n     - turning sound back on (toolbar speaker / Ctrl+M) reconnects the Windows sound output, so it follows headphones or speakers plugged in after MxScout started.\n•  NEW: Help > Sound Check (also under Playback). Shows live where the sound stops - no sound device, muted, no tile selected, camera not sending sound, or sound arriving - with a Play Test Beep button and Reconnect Sound Device.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
   "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "sha256": "fa03dc9e0e120800e092ada91e9499802b1b6e50212bd7ba13b3691a8c6c0278",
-  "size": 39400357
+  "sha256": "81139f9827f433a46ff1acf52db908056dd75901e9c659cde1a54ec3f69eb3d0",
+  "size": 39409061
 }
