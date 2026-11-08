@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.11.2  (November 8, 2026)
+- Healing mode also learns the MAC address of cameras that were added by IP address and are behind a router (it asks the camera itself), so they too are found again and keep their place in every layout when their IP address changes.
+
 ## MxScout 1.11.1  (November 8, 2026)
 - NEW: Home view. A blue ⌂ Home button appears in the top-right corner of any zoomed tile (zoomed In MxScout, or the camera's own vPTZ moved by MxScout) - one click puts it back to the camera's normal full picture (1x, centred). Also: the ⌂ Home button on the PTZ panel (was "1x"), right-click a tile > Return to Home View, or press the Home key for the active tile.
 - Updates: each version now downloads from its own address, and MxScout tries up to 3 times if a download comes back the wrong size (the update server can briefly hand out the previous version right after a release - that caused "the download is the wrong size").
