@@ -1,9 +1,9 @@
 {
-  "version": "1.5.4",
+  "version": "1.6.0",
   "published": "2026-11-08",
-  "notes": "•  FIX: fast forward and rewind at 16x and above showed \"No preview available\". At those speeds MxScout used to show each recorded minute's small preview picture (INFO.jpg), which many cameras fill with that placeholder. It now shows the real video, smaller and skipping frames so it keeps up. Placeholder pictures are ignored everywhere (Add Recordings preview, Live-mode stills too).",
+  "notes": "•  CHANGED: in Playback the play controls and the timeline now move only the SELECTED tiles (yellow frame) - not every tile. Click a tile to control just that one; Ctrl+click to add or remove tiles; Ctrl+A selects them all. The other tiles stay frozen on their own moment, so you can compare different times side by side. Clicking a tile jumps the timeline to that tile's moment; tiles you add with Ctrl+click join the moment the selection is on.\n•  NEW: Link All switch on the play controls - every tile follows one shared timeline again (like MOBOTIX MxControlCenter).",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
   "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "sha256": "a6fb7b0b0197dc517e9d173f691f002e0917489036d42faf000958d12ac1cc60",
-  "size": 39239589
+  "sha256": "130a84c2f5b4a6c05afcc85b6c0c4e29907de3b7b4c26b7380e9011987b63872",
+  "size": 39245221
 }
