@@ -1,5 +1,12 @@
 # MxScout - Release Notes
 
+## MxScout 1.9.0  (November 8, 2026)
+- NEW: Set Network Address (Scan for Cameras). Give a camera an IP address on your network - e.g. a new camera still on its factory 10.x address, listed as "Different subnet". Select it and click Set Network Address...: MxScout briefly adds a matching address to this PC (Windows asks for permission once), saves a backup of all the camera's settings, shows you exactly what it will change and asks, writes the new address, restarts the camera and waits for it at the new address. The extra PC address is removed again straight away. Find a Free One suggests an unused address.
+- NEW: Healing mode (Settings > Start-up, on). When a camera stops answering, MxScout hunts for it by its MAC address - this PC's network table, Bonjour and a quick sweep - right away, then after 30 s, 2 min and every 5 min. Found at a new IP (e.g. the router gave it another one): the camera is updated and reconnects by itself; the status bar says what happened. Found on a different subnet: the tile says so. MxScout also learns the MAC of cameras added by IP while they're online.
+- Each tile's name bar now shows the camera's IP address next to its name.
+- NEW: Camera Actions > Store Settings and Reboot... - makes the camera's current settings permanent and restarts it (backup taken first). Store Current Settings Permanently and Reboot Camera are still there on their own.
+- NEW: Safe-change checks. Before any change to a camera (Camera Settings, Restore, Store, Reboot, Set Network Address) MxScout:
+
 ## MxScout 1.8.1  (November 8, 2026)
 - FIX: live sound cut in and out once a second. The camera sends its sound in bursts of about a second, and MxScout's sound queue held less than that, so part of every burst was lost. Sound is now collected and played out evenly (about a second behind the picture) and the sound queue holds 3 seconds. Measured: 8 seconds of sound in 8 seconds, no gaps.
 
