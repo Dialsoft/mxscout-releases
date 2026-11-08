@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.8.0  (November 8, 2026)
+- NEW: Sound. You hear the camera of the active tile (the one you clicked) - its name bar shows a speaker:
+
 ## MxScout 1.7.2  (November 8, 2026)
 - Tiles in playback stand out: a deep red name bar reading PLAYBACK with the recording's date and time, and a red video-tape icon in the top-right corner of the picture (like MOBOTIX software). Live tiles keep the dark grey bar with the red LIVE badge.
 - The play-control tooltips also open when the mouse enters a button (more reliable on some Windows setups).
