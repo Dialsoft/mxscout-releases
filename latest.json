@@ -1,9 +1,9 @@
 {
-  "version": "1.7.1",
+  "version": "1.7.2",
   "published": "2026-11-08",
-  "notes": "•  FIX: the play controls had no tooltips. Their tooltips are now drawn by MxScout itself, just above the button the mouse is on, instead of by the Windows tooltip control (which first blinked there and then didn't appear at the bottom of the window). They never take the focus or the clicks, and close when you move away, switch programs or move the window.\n•  Tooltips on the play controls describe the per-tile playback correctly (they still said all cameras play in sync).",
+  "notes": "•  Tiles in playback stand out: a deep red name bar reading PLAYBACK with the recording's date and time, and a red video-tape icon in the top-right corner of the picture (like MOBOTIX software). Live tiles keep the dark grey bar with the red LIVE badge.\n•  The play-control tooltips also open when the mouse enters a button (more reliable on some Windows setups).\n•  MxScout now checks for updates every 30 minutes (was every 6 hours) and shows its version in the window title.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
   "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "sha256": "e23cf038b3b0f26781c762162ac391f7bf6eee350d4b36aa2b2a0c94ffc05049",
-  "size": 39254437
+  "sha256": "8d5904d307eb4182e2b34e4c6cf5d1fdfcd823ea4e5a3214d8f6107816595860",
+  "size": 39258533
 }
