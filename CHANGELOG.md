@@ -1,5 +1,11 @@
 # MxScout - Release Notes
 
+## MxScout 1.4.0  (November 8, 2026)
+- NEW: Add Recordings, in Scan for Cameras. Add MOBOTIX recording folders or .mxg clip files as video sources, with no live camera needed. Pick a camera's folder (like 10_12_154_52), the share the cameras record to (each camera folder inside becomes a source), a folder of .mxg clips, or individual .mxg files - or just drag them from Windows Explorer onto the list. They show with a film icon, a preview picture and the time they were recorded; tick them and add them to Video Sources or a new layout like any camera.
+- Recordings play in Playback with the timeline, speeds, Instant Replay and export to MP4/MXG. Showing only recordings switches to Playback by itself and jumps to their newest recording. Clips are placed on the timeline at the time the camera recorded them.
+- Nothing is copied or changed - MxScout reads the files where they are. Right-click a recording > Show Files in Explorer.
+- Very short recordings are now always visible on the timeline.
+
 ## MxScout 1.3.3  (November 8, 2026)
 - CHANGED: Open Camera Interface now opens the camera at its own address (for example http://192.168.1.127). Your browser asks for the camera's login the first time - let it remember it. The "Open in Camera Interface" button in Camera Logs does the same.
 - The no-password option is still there as "Open Camera Interface (auto login through MxScout)" for when you want it.
