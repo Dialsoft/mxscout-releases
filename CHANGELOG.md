@@ -1,5 +1,9 @@
 # MxScout - Release Notes
 
+## MxScout 1.3.2  (November 7, 2026)
+- FIX: Open Camera Interface (logged in) could drop you out of the logged-in view when the camera's pages or redirects pointed at the camera's own address. MxScout now keeps every page, link and redirect going through its login relay. (The address your browser shows, like 127.0.0.1:61184, is MxScout on your own PC passing you to the camera - that's normal.)
+- NEW: Open Camera Interface (camera's own address) - opens the camera the normal way at its real address; the browser asks for the login.
+
 ## MxScout 1.3.1  (November 7, 2026)
 - Camera Logs reads the camera's System Messages properly: a table with date, time, service, program and message, coloured like the camera colours them, and a summary at the top of every problem with a plain-English "What it means" - for example when the camera can't reach the file server it records to.
 
