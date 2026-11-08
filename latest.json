@@ -1,9 +1,9 @@
 {
-  "version": "1.4.1",
+  "version": "1.5.0",
   "published": "2026-11-08",
-  "notes": "•  Recording locations set once in Settings now fill in every camera's Recordings folder by themselves - shown in grey in Camera Properties. No more typing it per camera. Click Automatic to go back to this after picking a folder by hand.\n•  Finds camera folders up to 3 levels inside a recording location, so pointing it at the whole NAS share works.\n•  Matches cameras more ways: factory IP from the MAC, the camera's IP or name in the folder's .erdinfo, a folder named after the camera's IP, or the camera's name.",
+  "notes": "•  NEW: Recording folders are added automatically. Every camera folder in your recording locations shows up in Video Sources by itself: a folder that belongs to one of your cameras is linked to that camera, and the rest (old, replaced or not-yet-added cameras) are added as recordings with a film icon. Add the camera later and its recordings entry merges into it - layouts follow. Removed folders stay removed (Settings > Recordings > Bring Back Removed Recording Folders). Can be switched off in Settings > Recordings.\n•  NEW: Playback through the camera. When this PC can't open a camera's recording folder - you're on another network, connected only to the camera, or no recording location is set up - the camera itself fetches its recordings from its file server or SD card and sends them over, like MOBOTIX's own software does. Timeline, speeds, Instant Replay and MP4/MXG export all work the same.\n•  Camera Properties > Playback from: Automatic (folder, else through the camera), Recording folder only, or Through the camera only.\n•  Camera Logs has a Recordings List tab showing what the camera reports it has recorded.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
   "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "sha256": "a80163d8e8d39a7189769a1b892a7265606279e772214eca6ce801a979d44832",
-  "size": 39191973
+  "sha256": "96e83c26707d72bc7072093b64bf693ce04235459aa526b59e2bf58a7e0ebc10",
+  "size": 39210405
 }
