@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.5.4  (November 8, 2026)
+- FIX: fast forward and rewind at 16x and above showed "No preview available". At those speeds MxScout used to show each recorded minute's small preview picture (INFO.jpg), which many cameras fill with that placeholder. It now shows the real video, smaller and skipping frames so it keeps up. Placeholder pictures are ignored everywhere (Add Recordings preview, Live-mode stills too).
+
 ## MxScout 1.5.3  (November 8, 2026)
 - FASTER PLAYBACK of big cameras. Measured on a 6-megapixel recording: a large single-camera tile went from about 6 to the full 8 frames a second (150 ms of work per frame down to 20). MOBOTIX frames usually change only a small part of the picture; MxScout now only recolours the parts that changed instead of all 6 million pixels, and on a big tile decodes at half size when that's close to the tile's size.
 - Recordings on a NAS load faster: the pieces of each recorded minute are now read several at a time instead of one after another.
