@@ -1,5 +1,11 @@
 # MxScout - Release Notes
 
+## MxScout 1.5.0  (November 8, 2026)
+- NEW: Recording folders are added automatically. Every camera folder in your recording locations shows up in Video Sources by itself: a folder that belongs to one of your cameras is linked to that camera, and the rest (old, replaced or not-yet-added cameras) are added as recordings with a film icon. Add the camera later and its recordings entry merges into it - layouts follow. Removed folders stay removed (Settings > Recordings > Bring Back Removed Recording Folders). Can be switched off in Settings > Recordings.
+- NEW: Playback through the camera. When this PC can't open a camera's recording folder - you're on another network, connected only to the camera, or no recording location is set up - the camera itself fetches its recordings from its file server or SD card and sends them over, like MOBOTIX's own software does. Timeline, speeds, Instant Replay and MP4/MXG export all work the same.
+- Camera Properties > Playback from: Automatic (folder, else through the camera), Recording folder only, or Through the camera only.
+- Camera Logs has a Recordings List tab showing what the camera reports it has recorded.
+
 ## MxScout 1.4.1  (November 8, 2026)
 - Recording locations set once in Settings now fill in every camera's Recordings folder by themselves - shown in grey in Camera Properties. No more typing it per camera. Click Automatic to go back to this after picking a folder by hand.
 - Finds camera folders up to 3 levels inside a recording location, so pointing it at the whole NAS share works.
