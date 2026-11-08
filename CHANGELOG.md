@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.11.0  (November 8, 2026)
+- NEW: PTZ panel, docked in the lower left under Video Sources (like MxControlCenter). It works on the active tile (click a tile):
+
 ## MxScout 1.10.2  (November 8, 2026)
 - FIX attempts for sound going silent:
 - NEW: Help > Sound Check (also under Playback). Shows live where the sound stops - no sound device, muted, no tile selected, camera not sending sound, or sound arriving - with a Play Test Beep button and Reconnect Sound Device.
