@@ -1,9 +1,9 @@
 {
-  "version": "1.7.0",
+  "version": "1.7.1",
   "published": "2026-11-08",
-  "notes": "•  CHANGED: Playback is now per tile. Playback (F6) puts only the SELECTED tiles into playback - every other tile keeps showing live video. Live (F5) puts the selected tiles back to live. Each tile's name bar says LIVE or PLAYBACK, and the status bar says how many tiles are playing back. The play controls appear while any tile is in playback; All Live (on the play controls) puts every tile back to live. Recordings-only sources (folders, .mxg clips) are always in playback.\n•  The play controls fit on smaller and 150%-scaled screens again (Export and All Live were being pushed into the overflow arrow).",
+  "notes": "•  FIX: the play controls had no tooltips. Their tooltips are now drawn by MxScout itself, just above the button the mouse is on, instead of by the Windows tooltip control (which first blinked there and then didn't appear at the bottom of the window). They never take the focus or the clicks, and close when you move away, switch programs or move the window.\n•  Tooltips on the play controls describe the per-tile playback correctly (they still said all cameras play in sync).",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
   "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "sha256": "54d2c94accb91b817214cb2ee2674965c24488ab1336f64d4390a33cd300673b",
-  "size": 39250853
+  "sha256": "e23cf038b3b0f26781c762162ac391f7bf6eee350d4b36aa2b2a0c94ffc05049",
+  "size": 39254437
 }
