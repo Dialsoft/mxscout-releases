@@ -1,5 +1,10 @@
 # MxScout - Release Notes
 
+## MxScout 1.5.1  (November 8, 2026)
+- Scrubbing: dragging the timeline now shows the real moving video, frame by frame, instead of one still picture per minute (and .mxg clips now show pictures while dragging too). It sharpens to full quality the moment you let go.
+- Much faster playback: the MxPEG decoder uses the fast libjpeg method to rebuild pictures, decodes straight to the tile's size (a grid tile never needs all 3-6 megapixels), and keeps bookmarks inside each recording so jumping to any moment is quick - in tests jumping inside a recording went from about half a second to 10-30 milliseconds.
+- FIX: tooltips no longer blink. The status bar clock, the playback time and the Pending Adoption button were re-arranging their bars every second or so, which made any tooltip on them flicker; the camera list no longer rebuilds itself just to update online dots.
+
 ## MxScout 1.5.0  (November 8, 2026)
 - NEW: Recording folders are added automatically. Every camera folder in your recording locations shows up in Video Sources by itself: a folder that belongs to one of your cameras is linked to that camera, and the rest (old, replaced or not-yet-added cameras) are added as recordings with a film icon. Add the camera later and its recordings entry merges into it - layouts follow. Removed folders stay removed (Settings > Recordings > Bring Back Removed Recording Folders). Can be switched off in Settings > Recordings.
 - NEW: Playback through the camera. When this PC can't open a camera's recording folder - you're on another network, connected only to the camera, or no recording location is set up - the camera itself fetches its recordings from its file server or SD card and sends them over, like MOBOTIX's own software does. Timeline, speeds, Instant Replay and MP4/MXG export all work the same.
