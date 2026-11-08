@@ -1,5 +1,9 @@
 # MxScout - Release Notes
 
+## MxScout 1.6.0  (November 8, 2026)
+- CHANGED: in Playback the play controls and the timeline now move only the SELECTED tiles (yellow frame) - not every tile. Click a tile to control just that one; Ctrl+click to add or remove tiles; Ctrl+A selects them all. The other tiles stay frozen on their own moment, so you can compare different times side by side. Clicking a tile jumps the timeline to that tile's moment; tiles you add with Ctrl+click join the moment the selection is on.
+- NEW: Link All switch on the play controls - every tile follows one shared timeline again (like MOBOTIX MxControlCenter).
+
 ## MxScout 1.5.4  (November 8, 2026)
 - FIX: fast forward and rewind at 16x and above showed "No preview available". At those speeds MxScout used to show each recorded minute's small preview picture (INFO.jpg), which many cameras fill with that placeholder. It now shows the real video, smaller and skipping frames so it keeps up. Placeholder pictures are ignored everywhere (Add Recordings preview, Live-mode stills too).
 
