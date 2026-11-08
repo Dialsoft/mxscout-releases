@@ -1,9 +1,9 @@
 {
-  "version": "1.10.2",
+  "version": "1.11.0",
   "published": "2026-11-08",
-  "notes": "•  FIX attempts for sound going silent:\n     - live sound now always starts within 1.5 seconds, even if the camera sends less sound than expected (before, it could wait forever for its buffer to fill);\n     - switching between tiles can no longer leave a hidden extra sound connection to a camera running;\n     - turning sound back on (toolbar speaker / Ctrl+M) reconnects the Windows sound output, so it follows headphones or speakers plugged in after MxScout started.\n•  NEW: Help > Sound Check (also under Playback). Shows live where the sound stops - no sound device, muted, no tile selected, camera not sending sound, or sound arriving - with a Play Test Beep button and Reconnect Sound Device.",
+  "notes": "•  NEW: PTZ panel, docked in the lower left under Video Sources (like MxControlCenter). It works on the active tile (click a tile):\n     - Camera vPTZ: the camera itself zooms into its picture and moves the view - MOBOTIX's virtual PTZ, the same as the Zoom and Pan buttons in the camera's web page. Everyone watching that camera sees the change; recordings normally keep the full picture.\n     - In MxScout: only that tile's picture is zoomed (up to 8x) and moved - nothing changes on the camera; works for every camera and in playback. A ZOOM badge with a small map shows where you are; drag the picture to move around.\n     - arrow pad (click for a step, hold to keep moving), centre, Zoom + / Zoom -, 1x, speed slider;\n     - 6 presets per camera: click to go, right-click to save the current view;\n     - mouse wheel over a tile zooms (In MxScout: around the spot under the mouse);\n     - optional: click in the picture to centre the view there;\n     - ⇄ button: if left/right go the wrong way on a camera, swap them (remembered per camera).\n     Click the PTZ bar to fold the panel away; it remembers.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
   "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "sha256": "81139f9827f433a46ff1acf52db908056dd75901e9c659cde1a54ec3f69eb3d0",
-  "size": 39409061
+  "sha256": "efe73e18c68713cd74eb6bf12a129f693d27c59975e633c8dccef85bc043c852",
+  "size": 39442341
 }
