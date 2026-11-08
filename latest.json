@@ -1,9 +1,9 @@
 {
-  "version": "1.5.2",
+  "version": "1.5.3",
   "published": "2026-11-08",
-  "notes": "•  FIX: scrubbing the timeline. The timeline showed a whole hour, so a short recording was only a few pixels wide and the slightest drag ran off it into empty time (black picture). Now:\n     - opening recordings zooms the timeline to fit them (a clip fills the timeline; a recording folder shows its last 10 minutes);\n     - new - / + / Fit zoom buttons on the playback bar, and finer zoom steps down to 15 seconds across;\n     - dragging past the end of a recording holds its last picture instead of going black;\n     - you can drag anywhere on the timeline, including the time labels (slide the timeline with right-drag or Shift+drag).",
+  "notes": "•  FASTER PLAYBACK of big cameras. Measured on a 6-megapixel recording: a large single-camera tile went from about 6 to the full 8 frames a second (150 ms of work per frame down to 20). MOBOTIX frames usually change only a small part of the picture; MxScout now only recolours the parts that changed instead of all 6 million pixels, and on a big tile decodes at half size when that's close to the tile's size.\n•  Recordings on a NAS load faster: the pieces of each recorded minute are now read several at a time instead of one after another.\n•  FIX: tooltips on the play controls no longer blink. That bar sits at the bottom of the window, where Windows had no room to show the tooltip below the mouse and put it on top of the pointer instead. Those tooltips now open above the controls.\n•  View > Show Technical Info on Tiles now also works in Playback: where the recording comes from, how long it took to read, decode time and frames per second - handy to tell a slow network from a slow PC.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
   "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "sha256": "e8fad0782870bedb857f8e6c4b161229d5d9c9fb5329b7825f77bccd39613e81",
-  "size": 39227301
+  "sha256": "2bf3b545d5f81b18c4d6cee8f06e03d852ddb430d6fd591229833e68a265b017",
+  "size": 39237541
 }
