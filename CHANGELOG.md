@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.3.1  (November 7, 2026)
+- Camera Logs reads the camera's System Messages properly: a table with date, time, service, program and message, coloured like the camera colours them, and a summary at the top of every problem with a plain-English "What it means" - for example when the camera can't reach the file server it records to.
+
 ## MxScout 1.3.0  (November 7, 2026)
 - NEW: Camera Events - right-click a camera. Browse the events (alarms) the camera itself has stored, newest first, as thumbnails with date and time. Click one for the big alarm picture and its details, Play the whole event, or save it as MP4 or MXG. Works straight from the camera, with no file server needed.
 - NEW: Camera Actions - right-click a camera: Find This Camera (blinks its LEDs for 10 seconds), Speak IP Address, Read Temperature, LEDs and infrared lights on/off, Acknowledge Error, Sync Clock Now, Test Recording Server, Store Settings, Delete System Messages and Reboot (the last two ask first). Plus Save Support Report - the file MOBOTIX support asks for.
