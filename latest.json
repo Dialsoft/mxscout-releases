@@ -1,9 +1,9 @@
 {
-  "version": "1.6.0",
+  "version": "1.7.0",
   "published": "2026-11-08",
-  "notes": "•  CHANGED: in Playback the play controls and the timeline now move only the SELECTED tiles (yellow frame) - not every tile. Click a tile to control just that one; Ctrl+click to add or remove tiles; Ctrl+A selects them all. The other tiles stay frozen on their own moment, so you can compare different times side by side. Clicking a tile jumps the timeline to that tile's moment; tiles you add with Ctrl+click join the moment the selection is on.\n•  NEW: Link All switch on the play controls - every tile follows one shared timeline again (like MOBOTIX MxControlCenter).",
+  "notes": "•  CHANGED: Playback is now per tile. Playback (F6) puts only the SELECTED tiles into playback - every other tile keeps showing live video. Live (F5) puts the selected tiles back to live. Each tile's name bar says LIVE or PLAYBACK, and the status bar says how many tiles are playing back. The play controls appear while any tile is in playback; All Live (on the play controls) puts every tile back to live. Recordings-only sources (folders, .mxg clips) are always in playback.\n•  The play controls fit on smaller and 150%-scaled screens again (Export and All Live were being pushed into the overflow arrow).",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
   "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "sha256": "130a84c2f5b4a6c05afcc85b6c0c4e29907de3b7b4c26b7380e9011987b63872",
-  "size": 39245221
+  "sha256": "54d2c94accb91b817214cb2ee2674965c24488ab1336f64d4390a33cd300673b",
+  "size": 39250853
 }
