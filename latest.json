@@ -1,9 +1,9 @@
 {
-  "version": "1.10.0",
+  "version": "1.10.1",
   "published": "2026-11-08",
-  "notes": "•  NEW: Restart Camera... right on a camera's right-click menu, and a Restart Camera button in Camera Settings (asks whether to store the settings first). Camera Actions > Store Settings and Reboot is still there too.\n•  NEW: Progress for every change. Saving settings, Restore, Store, Restart and Set Network Address open a window listing each step in order - safety check, backup, send, read back, store, restart, \"waiting for the camera to come back... 34 s\", backup afterwards - each with a spinner while it runs, a green tick when done or a red cross with the reason, and how long it took. It closes itself 3 seconds after success (untick the box to keep it open); after a problem it stays open.\n•  NEW: Configuration repository - every camera's settings history, kept automatically in MxScout's own data folder (%AppData%\\Dialsoft\\MxScout\\Config Repository; Settings > Start-up can move it, e.g. to a NAS). A version is saved before and after every change MxScout makes, when a camera is added, and by a daily check of every camera - which also catches changes made in the camera's own web pages (marked \"changed outside MxScout\", with a note in the status bar). Only real changes become new versions. Right-click a camera > Configuration History (or History... in Camera Settings) shows each version and exactly which settings changed, compares with the camera now, saves a version as .cfg, or restores it. Backups made by older versions are brought in automatically.",
+  "notes": "•  Two clear restart choices everywhere: right-click a camera > Save Settings and Restart Camera... (saves the settings permanently, then restarts - the usual choice) or Restart Camera... (just restarts; unsaved settings are lost). Camera Settings has Save & Restart and Restart buttons, and Camera Actions uses the same names. Each shows its steps in the progress window until the camera is back.\n•  FIX: in Camera Settings the Apply Changes button could be pushed off the edge of the window by the new buttons. Apply / Undo now have their own row and are always visible.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
   "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "sha256": "445de68f67ffa3de33b72f92c0da08182bb97ec338803fc921f87afdfc824b2a",
-  "size": 39381413
+  "sha256": "fa03dc9e0e120800e092ada91e9499802b1b6e50212bd7ba13b3691a8c6c0278",
+  "size": 39400357
 }
