@@ -1,9 +1,9 @@
 {
-  "version": "1.8.0",
+  "version": "1.8.1",
   "published": "2026-11-08",
-  "notes": "•  NEW: Sound. You hear the camera of the active tile (the one you clicked) - its name bar shows a speaker:\n     - live tiles play the camera's microphone as it happens;\n     - tiles in playback play the recording's sound in step with the picture at 1x to 4x (faster sounds higher, like a tape); above 4x, backwards, paused or while dragging the timeline it's silent;\n     - click the speaker on a tile's name bar to mute just that camera (crossed out in red; remembered);\n     - toolbar: speaker button = all sound on/off (Ctrl+M), slider = volume. Both apply instantly and are remembered.\n     Only cameras with a microphone or audio module, with sound switched on in the camera, give sound.",
+  "notes": "•  FIX: live sound cut in and out once a second. The camera sends its sound in bursts of about a second, and MxScout's sound queue held less than that, so part of every burst was lost. Sound is now collected and played out evenly (about a second behind the picture) and the sound queue holds 3 seconds. Measured: 8 seconds of sound in 8 seconds, no gaps.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
   "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "sha256": "40f6838111ea856a4b77c72bdee0fad5d4f5269168e40f222c21e0ba58b3f26a",
-  "size": 39276965
+  "sha256": "3f584eba8d675a433406520739599ff1132f57175ebf0ddf4f3bd3219f45e9b1",
+  "size": 39287205
 }
