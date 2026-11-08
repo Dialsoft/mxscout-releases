@@ -1,9 +1,9 @@
 {
-  "version": "1.11.0",
+  "version": "1.11.1",
   "published": "2026-11-08",
-  "notes": "•  NEW: PTZ panel, docked in the lower left under Video Sources (like MxControlCenter). It works on the active tile (click a tile):\n     - Camera vPTZ: the camera itself zooms into its picture and moves the view - MOBOTIX's virtual PTZ, the same as the Zoom and Pan buttons in the camera's web page. Everyone watching that camera sees the change; recordings normally keep the full picture.\n     - In MxScout: only that tile's picture is zoomed (up to 8x) and moved - nothing changes on the camera; works for every camera and in playback. A ZOOM badge with a small map shows where you are; drag the picture to move around.\n     - arrow pad (click for a step, hold to keep moving), centre, Zoom + / Zoom -, 1x, speed slider;\n     - 6 presets per camera: click to go, right-click to save the current view;\n     - mouse wheel over a tile zooms (In MxScout: around the spot under the mouse);\n     - optional: click in the picture to centre the view there;\n     - ⇄ button: if left/right go the wrong way on a camera, swap them (remembered per camera).\n     Click the PTZ bar to fold the panel away; it remembers.",
+  "notes": "•  NEW: Home view. A blue ⌂ Home button appears in the top-right corner of any zoomed tile (zoomed In MxScout, or the camera's own vPTZ moved by MxScout) - one click puts it back to the camera's normal full picture (1x, centred). Also: the ⌂ Home button on the PTZ panel (was \"1x\"), right-click a tile > Return to Home View, or press the Home key for the active tile.\n•  Updates: each version now downloads from its own address, and MxScout tries up to 3 times if a download comes back the wrong size (the update server can briefly hand out the previous version right after a release - that caused \"the download is the wrong size\").",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.11.0",
-  "sha256": "efe73e18c68713cd74eb6bf12a129f693d27c59975e633c8dccef85bc043c852",
-  "size": 39442341
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.11.1",
+  "sha256": "ce9b1990d3963d4924ed7fba8f8d3b743858924b68f390fb8f07edd199b25136",
+  "size": 39448485
 }
