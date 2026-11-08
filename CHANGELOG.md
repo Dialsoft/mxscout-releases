@@ -1,5 +1,10 @@
 # MxScout - Release Notes
 
+## MxScout 1.4.1  (November 8, 2026)
+- Recording locations set once in Settings now fill in every camera's Recordings folder by themselves - shown in grey in Camera Properties. No more typing it per camera. Click Automatic to go back to this after picking a folder by hand.
+- Finds camera folders up to 3 levels inside a recording location, so pointing it at the whole NAS share works.
+- Matches cameras more ways: factory IP from the MAC, the camera's IP or name in the folder's .erdinfo, a folder named after the camera's IP, or the camera's name.
+
 ## MxScout 1.4.0  (November 8, 2026)
 - NEW: Add Recordings, in Scan for Cameras. Add MOBOTIX recording folders or .mxg clip files as video sources, with no live camera needed. Pick a camera's folder (like 10_12_154_52), the share the cameras record to (each camera folder inside becomes a source), a folder of .mxg clips, or individual .mxg files - or just drag them from Windows Explorer onto the list. They show with a film icon, a preview picture and the time they were recorded; tick them and add them to Video Sources or a new layout like any camera.
 - Recordings play in Playback with the timeline, speeds, Instant Replay and export to MP4/MXG. Showing only recordings switches to Playback by itself and jumps to their newest recording. Clips are placed on the timeline at the time the camera recorded them.
