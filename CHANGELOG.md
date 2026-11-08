@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.8.1  (November 8, 2026)
+- FIX: live sound cut in and out once a second. The camera sends its sound in bursts of about a second, and MxScout's sound queue held less than that, so part of every burst was lost. Sound is now collected and played out evenly (about a second behind the picture) and the sound queue holds 3 seconds. Measured: 8 seconds of sound in 8 seconds, no gaps.
+
 ## MxScout 1.8.0  (November 8, 2026)
 - NEW: Sound. You hear the camera of the active tile (the one you clicked) - its name bar shows a speaker:
 
