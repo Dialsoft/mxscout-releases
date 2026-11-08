@@ -1,9 +1,9 @@
 {
-  "version": "1.3.1",
+  "version": "1.3.2",
   "published": "2026-11-07",
-  "notes": "•  Camera Logs reads the camera's System Messages properly: a table with date, time, service, program and message, coloured like the camera colours them, and a summary at the top of every problem with a plain-English \"What it means\" - for example when the camera can't reach the file server it records to.",
+  "notes": "•  FIX: Open Camera Interface (logged in) could drop you out of the logged-in view when the camera's pages or redirects pointed at the camera's own address. MxScout now keeps every page, link and redirect going through its login relay. (The address your browser shows, like 127.0.0.1:61184, is MxScout on your own PC passing you to the camera - that's normal.)\n•  NEW: Open Camera Interface (camera's own address) - opens the camera the normal way at its real address; the browser asks for the login.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
   "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "sha256": "7d9320d8e7ccecd070221cf052e713aa3bbfecb22d61227996d8fa6c9ce10bbb",
-  "size": 39154597
+  "sha256": "aca15ec9398e2a44f3f53d43a17ecc998c58d58c6215635c04ce155ccb537443",
+  "size": 39160229
 }
