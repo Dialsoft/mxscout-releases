@@ -1,9 +1,9 @@
 {
-  "version": "1.5.1",
+  "version": "1.5.2",
   "published": "2026-11-08",
-  "notes": "•  Scrubbing: dragging the timeline now shows the real moving video, frame by frame, instead of one still picture per minute (and .mxg clips now show pictures while dragging too). It sharpens to full quality the moment you let go.\n•  Much faster playback: the MxPEG decoder uses the fast libjpeg method to rebuild pictures, decodes straight to the tile's size (a grid tile never needs all 3-6 megapixels), and keeps bookmarks inside each recording so jumping to any moment is quick - in tests jumping inside a recording went from about half a second to 10-30 milliseconds.\n•  FIX: tooltips no longer blink. The status bar clock, the playback time and the Pending Adoption button were re-arranging their bars every second or so, which made any tooltip on them flicker; the camera list no longer rebuilds itself just to update online dots.",
+  "notes": "•  FIX: scrubbing the timeline. The timeline showed a whole hour, so a short recording was only a few pixels wide and the slightest drag ran off it into empty time (black picture). Now:\n     - opening recordings zooms the timeline to fit them (a clip fills the timeline; a recording folder shows its last 10 minutes);\n     - new - / + / Fit zoom buttons on the playback bar, and finer zoom steps down to 15 seconds across;\n     - dragging past the end of a recording holds its last picture instead of going black;\n     - you can drag anywhere on the timeline, including the time labels (slide the timeline with right-drag or Shift+drag).",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
   "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "sha256": "84a3f35e78e656e5d1b5011880988d6fb5b8d6d95c14ffcc2f8edebe8e4361ac",
-  "size": 39221157
+  "sha256": "e8fad0782870bedb857f8e6c4b161229d5d9c9fb5329b7825f77bccd39613e81",
+  "size": 39227301
 }
