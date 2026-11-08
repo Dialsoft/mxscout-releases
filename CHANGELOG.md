@@ -1,5 +1,10 @@
 # MxScout - Release Notes
 
+## MxScout 1.7.2  (November 8, 2026)
+- Tiles in playback stand out: a deep red name bar reading PLAYBACK with the recording's date and time, and a red video-tape icon in the top-right corner of the picture (like MOBOTIX software). Live tiles keep the dark grey bar with the red LIVE badge.
+- The play-control tooltips also open when the mouse enters a button (more reliable on some Windows setups).
+- MxScout now checks for updates every 30 minutes (was every 6 hours) and shows its version in the window title.
+
 ## MxScout 1.7.1  (November 8, 2026)
 - FIX: the play controls had no tooltips. Their tooltips are now drawn by MxScout itself, just above the button the mouse is on, instead of by the Windows tooltip control (which first blinked there and then didn't appear at the bottom of the window). They never take the focus or the clicks, and close when you move away, switch programs or move the window.
 - Tooltips on the play controls describe the per-tile playback correctly (they still said all cameras play in sync).
