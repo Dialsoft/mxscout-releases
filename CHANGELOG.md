@@ -1,5 +1,9 @@
 # MxScout - Release Notes
 
+## MxScout 1.3.3  (November 8, 2026)
+- CHANGED: Open Camera Interface now opens the camera at its own address (for example http://192.168.1.127). Your browser asks for the camera's login the first time - let it remember it. The "Open in Camera Interface" button in Camera Logs does the same.
+- The no-password option is still there as "Open Camera Interface (auto login through MxScout)" for when you want it.
+
 ## MxScout 1.3.2  (November 7, 2026)
 - FIX: Open Camera Interface (logged in) could drop you out of the logged-in view when the camera's pages or redirects pointed at the camera's own address. MxScout now keeps every page, link and redirect going through its login relay. (The address your browser shows, like 127.0.0.1:61184, is MxScout on your own PC passing you to the camera - that's normal.)
 - NEW: Open Camera Interface (camera's own address) - opens the camera the normal way at its real address; the browser asks for the login.
