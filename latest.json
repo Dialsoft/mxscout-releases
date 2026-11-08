@@ -1,0 +1,9 @@
+{
+  "version": "1.1.1",
+  "published": "2026-11-07",
+  "notes": "• FIXED: on screens with Windows display scaling (125%, 150%...) the camera picture was drawn too big, cutting off the camera's own text along the edges. The whole picture now shows.\n• The camera-name bar now sits above the picture instead of over it, so it never hides the camera's own text.\n• Automatic updates (new in 1.1.0): MxScout now keeps itself up to date.",
+  "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
+  "sha256": "fec7428495c15970e2590a8a0bae83396e712b955f218942ec984a47fe2611c0",
+  "size": 39038885
+}
