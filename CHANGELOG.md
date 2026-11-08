@@ -1,5 +1,9 @@
 # MxScout - Release Notes
 
+## MxScout 1.10.2  (November 8, 2026)
+- FIX attempts for sound going silent:
+- NEW: Help > Sound Check (also under Playback). Shows live where the sound stops - no sound device, muted, no tile selected, camera not sending sound, or sound arriving - with a Play Test Beep button and Reconnect Sound Device.
+
 ## MxScout 1.10.1  (November 8, 2026)
 - Two clear restart choices everywhere: right-click a camera > Save Settings and Restart Camera... (saves the settings permanently, then restarts - the usual choice) or Restart Camera... (just restarts; unsaved settings are lost). Camera Settings has Save & Restart and Restart buttons, and Camera Actions uses the same names. Each shows its steps in the progress window until the camera is back.
 - FIX: in Camera Settings the Apply Changes button could be pushed off the edge of the window by the new buttons. Apply / Undo now have their own row and are always visible.
