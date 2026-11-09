@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.12.0  (November 8, 2026)
+- NEW: SOFTBUTTONS section in the left panel (above PTZ) - coloured one-click buttons for the active tile's camera, like the softbuttons down the left of a MOBOTIX camera's own Live page:
+
 ## MxScout 1.11.4  (November 8, 2026)
 - The left panel's sections fold away: click the LAYOUTS, VIDEO SOURCES or PTZ bar (▾ open / ▸ folded) to minimise that section - the others get the room. Click again to open it. Remembered.
 
