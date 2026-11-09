@@ -1,9 +1,9 @@
 {
-  "version": "1.11.4",
+  "version": "1.12.0",
   "published": "2026-11-08",
-  "notes": "•  The left panel's sections fold away: click the LAYOUTS, VIDEO SOURCES or PTZ bar (▾ open / ▸ folded) to minimise that section - the others get the room. Click again to open it. Remembered.",
+  "notes": "•  NEW: SOFTBUTTONS section in the left panel (above PTZ) - coloured one-click buttons for the active tile's camera, like the softbuttons down the left of a MOBOTIX camera's own Live page:\n     - starting set: Identify (camera LEDs on for 10 s), Alarm Sound (asks first), Snapshot, Instant Replay, Home View, Camera Web Page;\n     - the camera's OWN softbuttons (from its Admin Menu > Softbuttons) appear too, marked •, when they run a camera command or change a setting;\n     - ✎ Edit... adds and changes buttons: name, colour, all cameras or one camera, and what it does - a camera command (the list shows what the camera can do), change a camera setting (section=... name=value, like the camera's dialog), any address on the camera, any web address (e.g. a door relay: http://user:password@10.0.0.5/relay?on=1), or an MxScout action; optional \"Are you sure?\"; Test button;\n     - the result shows under the buttons (✔ / ✖ with the camera's answer). Right-click a button to edit it.\n     Click the SOFTBUTTONS bar to fold the section away.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.11.4",
-  "sha256": "d8686ce0a1874199b536d725ac08ce4593325424ab5e1ccaa283994e4a3865ae",
-  "size": 39454117
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.12.0",
+  "sha256": "6c2f98f04e63d06c063935a0b927efd9155725a8bbcf4384b1c651eb3af6fc80",
+  "size": 39487909
 }
