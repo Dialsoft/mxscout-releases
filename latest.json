@@ -1,9 +1,9 @@
 {
-  "version": "1.11.3",
+  "version": "1.11.4",
   "published": "2026-11-08",
-  "notes": "•  FIX: no sound at all. Since 1.10.2, a camera's sound stopped for good once you had clicked another tile (or switched modes) - going back to it stayed silent, so after a few clicks no camera gave sound. Now sound comes back every time you click a tile, and there is never more than one sound connection per camera.",
+  "notes": "•  The left panel's sections fold away: click the LAYOUTS, VIDEO SOURCES or PTZ bar (▾ open / ▸ folded) to minimise that section - the others get the room. Click again to open it. Remembered.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.11.3",
-  "sha256": "601c8c4d936b443d149448779be6abbf57d62b33068d40be9262496656ef1410",
-  "size": 39451557
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.11.4",
+  "sha256": "d8686ce0a1874199b536d725ac08ce4593325424ab5e1ccaa283994e4a3865ae",
+  "size": 39454117
 }
