@@ -1,5 +1,10 @@
 # MxScout - Release Notes
 
+## MxScout 1.13.1  (November 8, 2026)
+- FIX: the Softbuttons panel could show only "Edit..." (an empty button list was kept instead of the starting set). The MxCC-style buttons now always appear until you save your own list.
+- The Softbuttons editor is laid out properly: the list on the left shows each button as it looks (colour and name), with Add / Remove / Up / Down underneath; on the right Name, Colour (swatches + More...), Show on, What it does and only the fields that apply - no gaps - plus a "Looks like" preview, what it does, and Test.
+- The line under the softbuttons says whether the camera's own softbuttons were found. Right-click it (or the Softbuttons bar) > Show What the Camera Has for Softbuttons... shows the camera's softbutton settings (passwords hidden) with Copy All - paste that to Dialsoft if your camera's own buttons don't appear, so MxScout can read its layout.
+
 ## MxScout 1.13.0  (November 8, 2026)
 - Softbuttons now look and work like MxControlCenter's: one full-width button per row, coloured like MxCC (colour in the middle fading to white): Admin Menu, Setup Menu (open the camera's own menus, logged in), Arm & Record, Audio on, MxPEG on / off (red), LEDs Blink, Play Sound (yellow), Play Last Event, Event List (green), 1x Zoom, Zoom +, Zoom -, Center Pan (blue), Normal Image, Surround Image (180/360 cameras), plus Snapshot and Instant Replay. The camera's own softbuttons follow, marked •. More than nine scroll.
 - The left panel's sections have MxCC-style title bars with a [-] / [+] box; click a bar to fold that section away or open it again.
