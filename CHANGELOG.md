@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.11.4  (November 8, 2026)
+- The left panel's sections fold away: click the LAYOUTS, VIDEO SOURCES or PTZ bar (▾ open / ▸ folded) to minimise that section - the others get the room. Click again to open it. Remembered.
+
 ## MxScout 1.11.3  (November 8, 2026)
 - FIX: no sound at all. Since 1.10.2, a camera's sound stopped for good once you had clicked another tile (or switched modes) - going back to it stayed silent, so after a few clicks no camera gave sound. Now sound comes back every time you click a tile, and there is never more than one sound connection per camera.
 
