@@ -1,5 +1,10 @@
 # MxScout - Release Notes
 
+## MxScout 1.13.0  (November 8, 2026)
+- Softbuttons now look and work like MxControlCenter's: one full-width button per row, coloured like MxCC (colour in the middle fading to white): Admin Menu, Setup Menu (open the camera's own menus, logged in), Arm & Record, Audio on, MxPEG on / off (red), LEDs Blink, Play Sound (yellow), Play Last Event, Event List (green), 1x Zoom, Zoom +, Zoom -, Center Pan (blue), Normal Image, Surround Image (180/360 cameras), plus Snapshot and Instant Replay. The camera's own softbuttons follow, marked •. More than nine scroll.
+- The left panel's sections have MxCC-style title bars with a [-] / [+] box; click a bar to fold that section away or open it again.
+- The Video Sources columns always fit the panel (no sideways scroll bar).
+
 ## MxScout 1.12.0  (November 8, 2026)
 - NEW: SOFTBUTTONS section in the left panel (above PTZ) - coloured one-click buttons for the active tile's camera, like the softbuttons down the left of a MOBOTIX camera's own Live page:
 
