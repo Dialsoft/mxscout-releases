@@ -1,9 +1,9 @@
 {
-  "version": "1.12.0",
+  "version": "1.13.0",
   "published": "2026-11-08",
-  "notes": "•  NEW: SOFTBUTTONS section in the left panel (above PTZ) - coloured one-click buttons for the active tile's camera, like the softbuttons down the left of a MOBOTIX camera's own Live page:\n     - starting set: Identify (camera LEDs on for 10 s), Alarm Sound (asks first), Snapshot, Instant Replay, Home View, Camera Web Page;\n     - the camera's OWN softbuttons (from its Admin Menu > Softbuttons) appear too, marked •, when they run a camera command or change a setting;\n     - ✎ Edit... adds and changes buttons: name, colour, all cameras or one camera, and what it does - a camera command (the list shows what the camera can do), change a camera setting (section=... name=value, like the camera's dialog), any address on the camera, any web address (e.g. a door relay: http://user:password@10.0.0.5/relay?on=1), or an MxScout action; optional \"Are you sure?\"; Test button;\n     - the result shows under the buttons (✔ / ✖ with the camera's answer). Right-click a button to edit it.\n     Click the SOFTBUTTONS bar to fold the section away.",
+  "notes": "•  Softbuttons now look and work like MxControlCenter's: one full-width button per row, coloured like MxCC (colour in the middle fading to white): Admin Menu, Setup Menu (open the camera's own menus, logged in), Arm & Record, Audio on, MxPEG on / off (red), LEDs Blink, Play Sound (yellow), Play Last Event, Event List (green), 1x Zoom, Zoom +, Zoom -, Center Pan (blue), Normal Image, Surround Image (180/360 cameras), plus Snapshot and Instant Replay. The camera's own softbuttons follow, marked •. More than nine scroll.\n•  The left panel's sections have MxCC-style title bars with a [-] / [+] box; click a bar to fold that section away or open it again.\n•  The Video Sources columns always fit the panel (no sideways scroll bar).",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.12.0",
-  "sha256": "6c2f98f04e63d06c063935a0b927efd9155725a8bbcf4384b1c651eb3af6fc80",
-  "size": 39487909
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.13.0",
+  "sha256": "6112fadaff7ebe34799cde03ae4c466f97a52b4a216da1096798be0be1c2f214",
+  "size": 39500709
 }
