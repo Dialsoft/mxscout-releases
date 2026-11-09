@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.11.3  (November 8, 2026)
+- FIX: no sound at all. Since 1.10.2, a camera's sound stopped for good once you had clicked another tile (or switched modes) - going back to it stayed silent, so after a few clicks no camera gave sound. Now sound comes back every time you click a tile, and there is never more than one sound connection per camera.
+
 ## MxScout 1.11.2  (November 8, 2026)
 - Healing mode also learns the MAC address of cameras that were added by IP address and are behind a router (it asks the camera itself), so they too are found again and keep their place in every layout when their IP address changes.
 
