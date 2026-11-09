@@ -1,9 +1,9 @@
 {
-  "version": "1.11.2",
+  "version": "1.11.3",
   "published": "2026-11-08",
-  "notes": "•  Healing mode also learns the MAC address of cameras that were added by IP address and are behind a router (it asks the camera itself), so they too are found again and keep their place in every layout when their IP address changes.",
+  "notes": "•  FIX: no sound at all. Since 1.10.2, a camera's sound stopped for good once you had clicked another tile (or switched modes) - going back to it stayed silent, so after a few clicks no camera gave sound. Now sound comes back every time you click a tile, and there is never more than one sound connection per camera.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.11.2",
-  "sha256": "a5a3d58be2fc36476d5a8ae495d722d413db27fd55b304564b41a8246c2df5c2",
-  "size": 39450021
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.11.3",
+  "sha256": "601c8c4d936b443d149448779be6abbf57d62b33068d40be9262496656ef1410",
+  "size": 39451557
 }
