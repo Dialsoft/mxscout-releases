@@ -1,20 +1,24 @@
 # MxScout - Release Notes
 
+## MxScout 1.14.0  (November 10, 2026)
+- NEW: Users and Rights (File > Users and Rights), modeled on MxControlCenter. Off until you switch it on.
+- American spelling throughout (color, center, gray).
+
 ## MxScout 1.13.1  (November 8, 2026)
 - FIX: the Softbuttons panel could show only "Edit..." (an empty button list was kept instead of the starting set). The MxCC-style buttons now always appear until you save your own list.
-- The Softbuttons editor is laid out properly: the list on the left shows each button as it looks (colour and name), with Add / Remove / Up / Down underneath; on the right Name, Colour (swatches + More...), Show on, What it does and only the fields that apply - no gaps - plus a "Looks like" preview, what it does, and Test.
+- The Softbuttons editor is laid out properly: the list on the left shows each button as it looks (color and name), with Add / Remove / Up / Down underneath; on the right Name, Color (swatches + More...), Show on, What it does and only the fields that apply - no gaps - plus a "Looks like" preview, what it does, and Test.
 - The line under the softbuttons says whether the camera's own softbuttons were found. Right-click it (or the Softbuttons bar) > Show What the Camera Has for Softbuttons... shows the camera's softbutton settings (passwords hidden) with Copy All - paste that to Dialsoft if your camera's own buttons don't appear, so MxScout can read its layout.
 
 ## MxScout 1.13.0  (November 8, 2026)
-- Softbuttons now look and work like MxControlCenter's: one full-width button per row, coloured like MxCC (colour in the middle fading to white): Admin Menu, Setup Menu (open the camera's own menus, logged in), Arm & Record, Audio on, MxPEG on / off (red), LEDs Blink, Play Sound (yellow), Play Last Event, Event List (green), 1x Zoom, Zoom +, Zoom -, Center Pan (blue), Normal Image, Surround Image (180/360 cameras), plus Snapshot and Instant Replay. The camera's own softbuttons follow, marked •. More than nine scroll.
+- Softbuttons now look and work like MxControlCenter's: one full-width button per row, colored like MxCC (color in the middle fading to white): Admin Menu, Setup Menu (open the camera's own menus, logged in), Arm & Record, Audio on, MxPEG on / off (red), LEDs Blink, Play Sound (yellow), Play Last Event, Event List (green), 1x Zoom, Zoom +, Zoom -, Center Pan (blue), Normal Image, Surround Image (180/360 cameras), plus Snapshot and Instant Replay. The camera's own softbuttons follow, marked •. More than nine scroll.
 - The left panel's sections have MxCC-style title bars with a [-] / [+] box; click a bar to fold that section away or open it again.
 - The Video Sources columns always fit the panel (no sideways scroll bar).
 
 ## MxScout 1.12.0  (November 8, 2026)
-- NEW: SOFTBUTTONS section in the left panel (above PTZ) - coloured one-click buttons for the active tile's camera, like the softbuttons down the left of a MOBOTIX camera's own Live page:
+- NEW: SOFTBUTTONS section in the left panel (above PTZ) - colored one-click buttons for the active tile's camera, like the softbuttons down the left of a MOBOTIX camera's own Live page:
 
 ## MxScout 1.11.4  (November 8, 2026)
-- The left panel's sections fold away: click the LAYOUTS, VIDEO SOURCES or PTZ bar (▾ open / ▸ folded) to minimise that section - the others get the room. Click again to open it. Remembered.
+- The left panel's sections fold away: click the LAYOUTS, VIDEO SOURCES or PTZ bar (▾ open / ▸ folded) to minimize that section - the others get the room. Click again to open it. Remembered.
 
 ## MxScout 1.11.3  (November 8, 2026)
 - FIX: no sound at all. Since 1.10.2, a camera's sound stopped for good once you had clicked another tile (or switched modes) - going back to it stayed silent, so after a few clicks no camera gave sound. Now sound comes back every time you click a tile, and there is never more than one sound connection per camera.
@@ -23,7 +27,7 @@
 - Healing mode also learns the MAC address of cameras that were added by IP address and are behind a router (it asks the camera itself), so they too are found again and keep their place in every layout when their IP address changes.
 
 ## MxScout 1.11.1  (November 8, 2026)
-- NEW: Home view. A blue ⌂ Home button appears in the top-right corner of any zoomed tile (zoomed In MxScout, or the camera's own vPTZ moved by MxScout) - one click puts it back to the camera's normal full picture (1x, centred). Also: the ⌂ Home button on the PTZ panel (was "1x"), right-click a tile > Return to Home View, or press the Home key for the active tile.
+- NEW: Home view. A blue ⌂ Home button appears in the top-right corner of any zoomed tile (zoomed In MxScout, or the camera's own vPTZ moved by MxScout) - one click puts it back to the camera's normal full picture (1x, centered). Also: the ⌂ Home button on the PTZ panel (was "1x"), right-click a tile > Return to Home View, or press the Home key for the active tile.
 - Updates: each version now downloads from its own address, and MxScout tries up to 3 times if a download comes back the wrong size (the update server can briefly hand out the previous version right after a release - that caused "the download is the wrong size").
 
 ## MxScout 1.11.0  (November 8, 2026)
@@ -56,7 +60,7 @@
 - NEW: Sound. You hear the camera of the active tile (the one you clicked) - its name bar shows a speaker:
 
 ## MxScout 1.7.2  (November 8, 2026)
-- Tiles in playback stand out: a deep red name bar reading PLAYBACK with the recording's date and time, and a red video-tape icon in the top-right corner of the picture (like MOBOTIX software). Live tiles keep the dark grey bar with the red LIVE badge.
+- Tiles in playback stand out: a deep red name bar reading PLAYBACK with the recording's date and time, and a red video-tape icon in the top-right corner of the picture (like MOBOTIX software). Live tiles keep the dark gray bar with the red LIVE badge.
 - The play-control tooltips also open when the mouse enters a button (more reliable on some Windows setups).
 - MxScout now checks for updates every 30 minutes (was every 6 hours) and shows its version in the window title.
 
@@ -76,7 +80,7 @@
 - FIX: fast forward and rewind at 16x and above showed "No preview available". At those speeds MxScout used to show each recorded minute's small preview picture (INFO.jpg), which many cameras fill with that placeholder. It now shows the real video, smaller and skipping frames so it keeps up. Placeholder pictures are ignored everywhere (Add Recordings preview, Live-mode stills too).
 
 ## MxScout 1.5.3  (November 8, 2026)
-- FASTER PLAYBACK of big cameras. Measured on a 6-megapixel recording: a large single-camera tile went from about 6 to the full 8 frames a second (150 ms of work per frame down to 20). MOBOTIX frames usually change only a small part of the picture; MxScout now only recolours the parts that changed instead of all 6 million pixels, and on a big tile decodes at half size when that's close to the tile's size.
+- FASTER PLAYBACK of big cameras. Measured on a 6-megapixel recording: a large single-camera tile went from about 6 to the full 8 frames a second (150 ms of work per frame down to 20). MOBOTIX frames usually change only a small part of the picture; MxScout now only recolors the parts that changed instead of all 6 million pixels, and on a big tile decodes at half size when that's close to the tile's size.
 - Recordings on a NAS load faster: the pieces of each recorded minute are now read several at a time instead of one after another.
 - FIX: tooltips on the play controls no longer blink. That bar sits at the bottom of the window, where Windows had no room to show the tooltip below the mouse and put it on top of the pointer instead. Those tooltips now open above the controls.
 - View > Show Technical Info on Tiles now also works in Playback: where the recording comes from, how long it took to read, decode time and frames per second - handy to tell a slow network from a slow PC.
@@ -96,7 +100,7 @@
 - Camera Logs has a Recordings List tab showing what the camera reports it has recorded.
 
 ## MxScout 1.4.1  (November 8, 2026)
-- Recording locations set once in Settings now fill in every camera's Recordings folder by themselves - shown in grey in Camera Properties. No more typing it per camera. Click Automatic to go back to this after picking a folder by hand.
+- Recording locations set once in Settings now fill in every camera's Recordings folder by themselves - shown in gray in Camera Properties. No more typing it per camera. Click Automatic to go back to this after picking a folder by hand.
 - Finds camera folders up to 3 levels inside a recording location, so pointing it at the whole NAS share works.
 - Matches cameras more ways: factory IP from the MAC, the camera's IP or name in the folder's .erdinfo, a folder named after the camera's IP, or the camera's name.
 
@@ -115,7 +119,7 @@
 - NEW: Open Camera Interface (camera's own address) - opens the camera the normal way at its real address; the browser asks for the login.
 
 ## MxScout 1.3.1  (November 7, 2026)
-- Camera Logs reads the camera's System Messages properly: a table with date, time, service, program and message, coloured like the camera colours them, and a summary at the top of every problem with a plain-English "What it means" - for example when the camera can't reach the file server it records to.
+- Camera Logs reads the camera's System Messages properly: a table with date, time, service, program and message, colored like the camera colors them, and a summary at the top of every problem with a plain-English "What it means" - for example when the camera can't reach the file server it records to.
 
 ## MxScout 1.3.0  (November 7, 2026)
 - NEW: Camera Events - right-click a camera. Browse the events (alarms) the camera itself has stored, newest first, as thumbnails with date and time. Click one for the big alarm picture and its details, Play the whole event, or save it as MP4 or MXG. Works straight from the camera, with no file server needed.
