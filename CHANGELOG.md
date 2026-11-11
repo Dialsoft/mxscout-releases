@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.15.0  (November 10, 2026)
+- NEW: MxScout now comes two ways - the same program either way:
+
 ## MxScout 1.14.2  (November 10, 2026)
 - The File menu showed the Settings shortcut as "Ctrl+Oemcomma" (Windows' internal name for the comma key). It now reads Ctrl+, .
 
