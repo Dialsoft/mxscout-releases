@@ -1,5 +1,12 @@
 # MxScout - Release Notes
 
+## MxScout 1.17.0  (November 11, 2026)
+- NEW: MxScout Setup can install for ALL USERS of a PC. The installer now asks who MxScout is for. "Just for me" is what it did before (your own Windows account, no administrator). "All users of this PC" installs in C:\Program Files\MxScout, where only an administrator can change the program - the usual way on business and shared PCs, and the one security software expects. Everyone who signs in gets the shortcuts; each person keeps their own cameras, layouts and settings.
+- For RMM tools: MxScout-Setup.exe /S /ALLUSERS installs for the whole PC without any windows. Run by the SYSTEM account (as RMM agents do) it chooses All users by itself.
+- Updating an all-users install: Update now downloads the new installer, checks it, and Windows asks for an administrator's permission to put it in. MxScout then restarts as you. Just-for-me installs and the portable MxScout.exe update themselves as before.
+- An installed MxScout now has its video engine (ffmpeg.exe, used for MP4 export) as an ordinary file next to the program, instead of unpacking it the first time you export. The installer is about 10 MB smaller too.
+- Switching from Just for me to All users removes the per-user copy, so there is only ever one MxScout. Your data is kept.
+
 ## MxScout 1.16.0  (November 11, 2026)
 - NEW: Scan Remote Site (Scan for Cameras > Scan Remote Site...). Finds the cameras at another location that are reached through port forwarding: type the site's public IP address or DNS name and the range of ports its router forwards to the cameras - for example 50.243.70.9, ports 10000 to 10255. MxScout tries every port (16 at a time) and lists each MOBOTIX camera that answers, with its name, model and its own MAC address, ready to tick and add like any other camera. Sites are remembered, so scanning one again is a click.
 - Cameras that share one address on different ports are kept strictly apart everywhere - in the list, when adding, in the settings history and in the safe-change checks. Video Sources shows address:port for them.
