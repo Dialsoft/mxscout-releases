@@ -1,9 +1,9 @@
 {
-  "version": "1.14.0",
+  "version": "1.14.1",
   "published": "2026-11-10",
-  "notes": "•  NEW: Users and Rights (File > Users and Rights), modeled on MxControlCenter. Off until you switch it on.\n     - Users: each has a name, a password and one group. Accounts can be switched off without deleting them.\n     - Groups: Administrators (everything), Operators (live, sound, playback, export, PTZ, softbuttons) and Viewers (live and sound) come ready-made; change them or add your own. Twelve rights to tick: watch live, hear sound, play recordings, export video and snapshots, move and zoom cameras, use softbuttons, change camera settings, add and remove cameras, change layouts, change MxScout settings, manage users, close MxScout.\n     - Camera access per group: all cameras, or only the ones ticked. Other cameras are missing from the list and their tiles show \"No access\".\n     - Menus, toolbar buttons and panels a user has no right to are hidden, and every action checks the right again when it runs.\n     - Automatic user: MxScout can start logged in as one user without asking (e.g. a Viewer for a wall monitor); Ctrl+U switches user, Ctrl+Shift+U locks. The status bar shows who is logged in.\n     - Lock after some minutes without mouse or keyboard.\n     - Access log: log ins, log offs, wrong passwords and refused actions (Log In tab > Open the Access Log).\n     - Passwords are stored only as salted hashes; 5 wrong tries = 30 seconds' wait. Lost the administrator password: start MxScout.exe --reset-users once.\n     Changes apply at once - no restart.\n•  American spelling throughout (color, center, gray).",
+  "notes": "•  FIX: no live sound - Sound Check showed \"can't get sound: (401) Unauthorized\". The sound connection logged in to the camera differently from the picture connection, and some MOBOTIX cameras refused it. It now logs in exactly like the picture does (and tries the camera's other login method by itself if needed).",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.14.0",
-  "sha256": "29366de85cdfc90ec9fa6c039c41765aed99e9b086e22f490f152d68843b84c5",
-  "size": 39567269
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.14.1",
+  "sha256": "d7685443aaf750db3707c67dc295f03fba41dac2f47570c832b0d5fc45fde72a",
+  "size": 39569317
 }
