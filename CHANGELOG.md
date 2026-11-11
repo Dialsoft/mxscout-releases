@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.14.1  (November 10, 2026)
+- FIX: no live sound - Sound Check showed "can't get sound: (401) Unauthorized". The sound connection logged in to the camera differently from the picture connection, and some MOBOTIX cameras refused it. It now logs in exactly like the picture does (and tries the camera's other login method by itself if needed).
+
 ## MxScout 1.14.0  (November 10, 2026)
 - NEW: Users and Rights (File > Users and Rights), modeled on MxControlCenter. Off until you switch it on.
 - American spelling throughout (color, center, gray).
