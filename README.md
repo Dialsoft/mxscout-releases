@@ -12,8 +12,10 @@
 Two ways to get MxScout - same program, pick one:
 
 - [**MxScout-Setup.exe**](https://github.com/Dialsoft/mxscout-releases/raw/main/MxScout-Setup.exe) - **installer.**
-  Installs for your Windows account (no administrator rights needed), adds MxScout to the Start menu and Desktop,
-  and can be removed from Windows Settings > Apps. Silent install for IT: `MxScout-Setup.exe /S`
+  Asks who MxScout is for: **Just for me** (your Windows account, no administrator rights needed) or
+  **All users of this PC** (installs in `C:\Program Files\MxScout`, needs an administrator - the usual choice on
+  business PCs). Adds MxScout to the Start menu and Desktop, and can be removed from Windows Settings > Apps.
+  Silent install for IT: `MxScout-Setup.exe /S /ALLUSERS` (whole PC) or `MxScout-Setup.exe /S` (current user).
 - [**MxScout.exe**](https://github.com/Dialsoft/mxscout-releases/raw/main/MxScout.exe) - **standalone.**
   One file, nothing to install: save it anywhere (or on a USB stick) and run it.
 
