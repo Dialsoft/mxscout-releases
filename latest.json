@@ -1,12 +1,12 @@
 {
-  "version": "1.15.0",
+  "version": "1.16.0",
   "published": "2026-11-10",
-  "notes": "•  NEW: MxScout now comes two ways - the same program either way:\n     - MxScout-Setup.exe, an installer: installs for your Windows account (no administrator rights needed), adds MxScout to the Start menu and the Desktop, and shows up in Windows Settings > Apps with Uninstall. Installing over an older version keeps your cameras, layouts, users and settings. For IT: MxScout-Setup.exe /S installs silently (add /NOSTART to not start MxScout afterwards).\n     - MxScout.exe, standalone as before: one file, nothing to install.\n     Both keep themselves up to date. Nothing changes for the copy you already have. The installer is not digitally signed yet, so Windows may show \"Windows protected your PC\" - click More info > Run anyway.",
+  "notes": "•  NEW: Scan Remote Site (Scan for Cameras > Scan Remote Site...). Finds the cameras at another location that are reached through port forwarding: type the site's public IP address or DNS name and the range of ports its router forwards to the cameras - for example 50.243.70.9, ports 10000 to 10255. MxScout tries every port (16 at a time) and lists each MOBOTIX camera that answers, with its name, model and its own MAC address, ready to tick and add like any other camera. Sites are remembered, so scanning one again is a click.\n•  Cameras that share one address on different ports are kept strictly apart everywhere - in the list, when adding, in the settings history and in the safe-change checks. Video Sources shows address:port for them.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.15.0",
-  "sha256": "ec564d4cd933819839c465c88d6b06521b511342392d943857e59e4db5712fef",
-  "size": 39573413,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.15.0",
-  "setup_sha256": "b487a29e91b3867760251a119af9a5e19d670b070b16ead45ea801fcc2e14bc0",
-  "setup_size": 39267143
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.16.0",
+  "sha256": "9c9e3e213eb8d9877f7ad8f7d232de39a1ffc49de7276e779e9392ceb176a4cb",
+  "size": 39589285,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.16.0",
+  "setup_sha256": "ed8b382b31f76f1ba1e99ff649fba0606015a43bd0a636350de1fa829f68d264",
+  "setup_size": 39270765
 }
