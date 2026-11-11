@@ -1,5 +1,9 @@
 # MxScout - Release Notes
 
+## MxScout 1.16.0  (November 11, 2026)
+- NEW: Scan Remote Site (Scan for Cameras > Scan Remote Site...). Finds the cameras at another location that are reached through port forwarding: type the site's public IP address or DNS name and the range of ports its router forwards to the cameras - for example 50.243.70.9, ports 10000 to 10255. MxScout tries every port (16 at a time) and lists each MOBOTIX camera that answers, with its name, model and its own MAC address, ready to tick and add like any other camera. Sites are remembered, so scanning one again is a click.
+- Cameras that share one address on different ports are kept strictly apart everywhere - in the list, when adding, in the settings history and in the safe-change checks. Video Sources shows address:port for them.
+
 ## MxScout 1.15.0  (November 10, 2026)
 - NEW: MxScout now comes two ways - the same program either way:
 
