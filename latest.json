@@ -1,9 +1,12 @@
 {
-  "version": "1.14.2",
+  "version": "1.15.0",
   "published": "2026-11-10",
-  "notes": "•  The File menu showed the Settings shortcut as \"Ctrl+Oemcomma\" (Windows' internal name for the comma key). It now reads Ctrl+, .",
+  "notes": "•  NEW: MxScout now comes two ways - the same program either way:\n     - MxScout-Setup.exe, an installer: installs for your Windows account (no administrator rights needed), adds MxScout to the Start menu and the Desktop, and shows up in Windows Settings > Apps with Uninstall. Installing over an older version keeps your cameras, layouts, users and settings. For IT: MxScout-Setup.exe /S installs silently (add /NOSTART to not start MxScout afterwards).\n     - MxScout.exe, standalone as before: one file, nothing to install.\n     Both keep themselves up to date. Nothing changes for the copy you already have. The installer is not digitally signed yet, so Windows may show \"Windows protected your PC\" - click More info > Run anyway.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.14.2",
-  "sha256": "2103ca37dab811b7494febd337014b2a6417fcde582a2e1d396f0eff4bc5254b",
-  "size": 39570341
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.15.0",
+  "sha256": "ec564d4cd933819839c465c88d6b06521b511342392d943857e59e4db5712fef",
+  "size": 39573413,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.15.0",
+  "setup_sha256": "b487a29e91b3867760251a119af9a5e19d670b070b16ead45ea801fcc2e14bc0",
+  "setup_size": 39267143
 }
