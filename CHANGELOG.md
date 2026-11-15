@@ -1,5 +1,10 @@
 # MxScout - Release Notes
 
+## MxScout 1.21.1  (November 15, 2026)
+- Camera Properties now shows where recordings come from the way MxControlCenter does: a framed line "Access recordings: Via camera" (or Default recording path / Specific recording path) with a Change... button.
+- Change... opens "Access Recordings of [camera]" with the three choices: Via camera; Default recording path (the camera's folder in your Recording Locations - it shows the folder it found); Specific recording path with Browse. A check box says what to do when a path can't be opened from this PC: go via the camera instead (the default), or show nothing.
+- The right-click menu in VIDEO SOURCES uses the same words: Access Recordings > Via Camera / Default Recording Path / Recording Path Only.
+
 ## MxScout 1.21.0  (November 15, 2026)
 - Cameras at remote sites now play their recordings back THROUGH THE CAMERA, automatically. A remote camera records to a file server at its own site, and no UNC path or mapped drive reaches that from this PC - so MxScout asks the camera for the recordings instead, over the same connection as the live picture. Cameras added with "At a remote site" (or by a public address / forwarded port) are set to Playback from: Through the camera when they are added.
 - Remote cameras you added with an earlier version are switched over once, the first time this version starts. Anything you set by hand in Camera Properties is left alone.
