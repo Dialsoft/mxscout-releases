@@ -1,5 +1,11 @@
 # MxScout - Release Notes
 
+## MxScout 1.21.4  (November 15, 2026)
+- FIXED (playback via camera, real cameras): MxScout now reads the camera's own answers correctly - the oldest and newest recording (it used to take the newest for both, so the timeline covered almost nothing) and the camera's list of recordings (each entry carries a small list of its own, which made MxScout skip every entry). Event recordings (alarms) now show on the timeline and play.
+- Not done yet: footage a camera records CONTINUOUSLY between events doesn't show via the camera yet - the camera's list only names alarms. The two tools below are for working that out.
+- NEW: right-click a camera > Record What MxControlCenter Asks This Camera. A recorder stands in for the camera on this PC (127.0.0.1 and the port shown); point MxControlCenter at it, play recordings back via camera, and every request it makes is listed, ready to copy. Everything is passed to the real camera unchanged; passwords are never written down; only this PC can reach it.
+- Check Playback Via Camera asks the camera a few more questions (details of a finished recording, and which recording was running at a given time).
+
 ## MxScout 1.21.3  (November 15, 2026)
 - NEW: right-click a camera > Check Playback Via Camera. When playback via the camera shows nothing, this asks the camera for its recordings step by step - the same requests Playback makes - and shows how the camera answers each one, with a plain-English result at the bottom. Copy Report copies it all (no passwords) to paste into a message.
 
