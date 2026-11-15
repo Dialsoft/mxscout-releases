@@ -1,5 +1,9 @@
 # MxScout - Release Notes
 
+## MxScout 1.19.1  (November 15, 2026)
+- Scan for Cameras: new "Log in with" boxes - User and Password - next to the scan button. Type the login your cameras use and MxScout tries it on every camera the scan finds, so they show up ready (green dot, name, model, preview) instead of "Password needed". Works for both kinds of scan and for Add by Address. Cameras with a different login still show Password needed - select them and click Set Password.
+- At a remote site the login is remembered with the site (the password encrypted for your Windows account): picking the site under Saved sites fills in the address, the ports and the login.
+
 ## MxScout 1.19.0  (November 15, 2026)
 - Scan for Cameras now asks one clear question at the top: Where are the cameras? - "On this network" or "At a remote site (another location, over the internet)". Choosing the remote site puts its boxes right in the window: Address, Ports from / to, Site name and your Saved sites. Example: address 108.170.94.18, ports 10000 to 10254, then click Scan Site (or press Enter). Every camera that answers is listed with its port, ready to tick and add. (The old Scan Remote Site button and its separate window are gone.)
 - Paste shortcut: paste "108.170.94.18:10000-10254" or "108.170.94.18 10000 10254" into Address and the port boxes fill themselves in. The window shows how many ports will be tried.
