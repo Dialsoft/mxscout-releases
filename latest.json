@@ -1,12 +1,12 @@
 {
-  "version": "1.19.1",
+  "version": "1.20.0",
   "published": "2026-11-15",
-  "notes": "•  Scan for Cameras: new \"Log in with\" boxes - User and Password - next to the scan button. Type the login your cameras use and MxScout tries it on every camera the scan finds, so they show up ready (green dot, name, model, preview) instead of \"Password needed\". Works for both kinds of scan and for Add by Address. Cameras with a different login still show Password needed - select them and click Set Password.\n•  At a remote site the login is remembered with the site (the password encrypted for your Windows account): picking the site under Saved sites fills in the address, the ports and the login.",
+  "notes": "•  NEW: Scan for Cameras is now a step-by-step wizard, with the steps shown across the top and Back / Next at the bottom:\n      1  Where to look - on this network or at a remote site, plus the camera login to try.\n      2  Pick cameras - the list and live preview. Tick the ones you want.\n      3  Add to MxScout - which location tab, and whether to create a layout (name and folder), with a list of exactly what will be added.\n   Nothing is added until the last button, which says what it does (\"Add 8 cameras\"). A final page confirms what was added and offers Scan Another Location.\n•  NEW: Totals above the camera list - Found, Ready, Password needed, Different subnet, Problem, Already in MxScout, New and Ticked to add - counting up live while the scan runs. Click a total to select those cameras: for example click Password needed, then Set Password, to give them all their login in one go.\n•  Tick All New and Untick All buttons under the list. The Next button shows how many are ticked.\n•  Scanning again (or scanning the same site twice) refreshes the cameras already in the list instead of listing them twice, and keeps your ticks. Going Back never loses what was found.\n•  The scan no longer starts by itself when the window opens: step 1 shows what will be scanned first, and one click on Scan (or Enter) starts it.\n•  Pending Adoption uses the same window, starting at the list.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.19.1",
-  "sha256": "c85eef451e7140669d914b331a14e41e28e49d0f92b5be478d29b58385626043",
-  "size": 39648677,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.19.1",
-  "setup_sha256": "ff0016eda0f45d6a5c33f55da58f327ec2fd6b79787f0116f9f8c3013e4efe78",
-  "setup_size": 28896811
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.20.0",
+  "sha256": "9c43b204d38c723a01d6fac0e232ea47a318204816173bc5d7d65d99a1921571",
+  "size": 39678373,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.20.0",
+  "setup_sha256": "5056a232dc9b503fe949985eeea01fed7cfcd1b52e2ee0b181d76c0b88ddbb38",
+  "setup_size": 28894731
 }
