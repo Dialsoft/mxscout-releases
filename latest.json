@@ -1,12 +1,12 @@
 {
-  "version": "1.20.0",
+  "version": "1.21.0",
   "published": "2026-11-15",
-  "notes": "•  NEW: Scan for Cameras is now a step-by-step wizard, with the steps shown across the top and Back / Next at the bottom:\n      1  Where to look - on this network or at a remote site, plus the camera login to try.\n      2  Pick cameras - the list and live preview. Tick the ones you want.\n      3  Add to MxScout - which location tab, and whether to create a layout (name and folder), with a list of exactly what will be added.\n   Nothing is added until the last button, which says what it does (\"Add 8 cameras\"). A final page confirms what was added and offers Scan Another Location.\n•  NEW: Totals above the camera list - Found, Ready, Password needed, Different subnet, Problem, Already in MxScout, New and Ticked to add - counting up live while the scan runs. Click a total to select those cameras: for example click Password needed, then Set Password, to give them all their login in one go.\n•  Tick All New and Untick All buttons under the list. The Next button shows how many are ticked.\n•  Scanning again (or scanning the same site twice) refreshes the cameras already in the list instead of listing them twice, and keeps your ticks. Going Back never loses what was found.\n•  The scan no longer starts by itself when the window opens: step 1 shows what will be scanned first, and one click on Scan (or Enter) starts it.\n•  Pending Adoption uses the same window, starting at the list.",
+  "notes": "•  Cameras at remote sites now play their recordings back THROUGH THE CAMERA, automatically. A remote camera records to a file server at its own site, and no UNC path or mapped drive reaches that from this PC - so MxScout asks the camera for the recordings instead, over the same connection as the live picture. Cameras added with \"At a remote site\" (or by a public address / forwarded port) are set to Playback from: Through the camera when they are added.\n•  Remote cameras you added with an earlier version are switched over once, the first time this version starts. Anything you set by hand in Camera Properties is left alone.\n•  Adding remote cameras no longer asks \"These cameras say they record to \\\\server\\share - add it?\" - that share can't be opened from here.\n•  NEW: right-click cameras in VIDEO SOURCES > Playback From > Through the Camera / Automatic / Recording Folder Only. Works on many cameras at once: select them with Ctrl or Shift (Ctrl+A for the whole tab). Takes effect right away.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.20.0",
-  "sha256": "9c43b204d38c723a01d6fac0e232ea47a318204816173bc5d7d65d99a1921571",
-  "size": 39678373,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.20.0",
-  "setup_sha256": "5056a232dc9b503fe949985eeea01fed7cfcd1b52e2ee0b181d76c0b88ddbb38",
-  "setup_size": 28894731
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.21.0",
+  "sha256": "1df455adc4019d76c286b301cc0f099db44b73414ed72cfee51ce4985b4785f8",
+  "size": 39687077,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.21.0",
+  "setup_sha256": "c6fa35db2a45aac408cb50cef4c349a6a0fa463a52aed2046ac48b5eee3656ce",
+  "setup_size": 28900647
 }
