@@ -1,12 +1,12 @@
 {
-  "version": "1.21.3",
+  "version": "1.21.4",
   "published": "2026-11-15",
-  "notes": "•  NEW: right-click a camera > Check Playback Via Camera. When playback via the camera shows nothing, this asks the camera for its recordings step by step - the same requests Playback makes - and shows how the camera answers each one, with a plain-English result at the bottom. Copy Report copies it all (no passwords) to paste into a message.",
+  "notes": "•  FIXED (playback via camera, real cameras): MxScout now reads the camera's own answers correctly - the oldest and newest recording (it used to take the newest for both, so the timeline covered almost nothing) and the camera's list of recordings (each entry carries a small list of its own, which made MxScout skip every entry). Event recordings (alarms) now show on the timeline and play.\n•  Not done yet: footage a camera records CONTINUOUSLY between events doesn't show via the camera yet - the camera's list only names alarms. The two tools below are for working that out.\n•  NEW: right-click a camera > Record What MxControlCenter Asks This Camera. A recorder stands in for the camera on this PC (127.0.0.1 and the port shown); point MxControlCenter at it, play recordings back via camera, and every request it makes is listed, ready to copy. Everything is passed to the real camera unchanged; passwords are never written down; only this PC can reach it.\n•  Check Playback Via Camera asks the camera a few more questions (details of a finished recording, and which recording was running at a given time).",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.21.3",
-  "sha256": "c8c1676ba7400c2b8fd78b4736c49e8e81b89ed716c358f91f6504513a1f1f54",
-  "size": 39711653,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.21.3",
-  "setup_sha256": "25b4d2b1c6bf6b9fcf1000121f3cf63712fb9e5fe249b1dc403d44836bb7e3f9",
-  "setup_size": 28904389
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.21.4",
+  "sha256": "97fcc3aed2d122764b6e216caa1bccc2e03d352e64c6a97ef613aa248d47d210",
+  "size": 39735205,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.21.4",
+  "setup_sha256": "7f121af6c8b54cebf0d6cad5d1b957cfce0eb02b8737ed0da05cd996e3b523f2",
+  "setup_size": 28923335
 }
