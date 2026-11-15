@@ -1,5 +1,11 @@
 # MxScout - Release Notes
 
+## MxScout 1.21.0  (November 15, 2026)
+- Cameras at remote sites now play their recordings back THROUGH THE CAMERA, automatically. A remote camera records to a file server at its own site, and no UNC path or mapped drive reaches that from this PC - so MxScout asks the camera for the recordings instead, over the same connection as the live picture. Cameras added with "At a remote site" (or by a public address / forwarded port) are set to Playback from: Through the camera when they are added.
+- Remote cameras you added with an earlier version are switched over once, the first time this version starts. Anything you set by hand in Camera Properties is left alone.
+- Adding remote cameras no longer asks "These cameras say they record to \\server\share - add it?" - that share can't be opened from here.
+- NEW: right-click cameras in VIDEO SOURCES > Playback From > Through the Camera / Automatic / Recording Folder Only. Works on many cameras at once: select them with Ctrl or Shift (Ctrl+A for the whole tab). Takes effect right away.
+
 ## MxScout 1.20.0  (November 15, 2026)
 - NEW: Scan for Cameras is now a step-by-step wizard, with the steps shown across the top and Back / Next at the bottom:
 - NEW: Totals above the camera list - Found, Ready, Password needed, Different subnet, Problem, Already in MxScout, New and Ticked to add - counting up live while the scan runs. Click a total to select those cameras: for example click Password needed, then Set Password, to give them all their login in one go.
