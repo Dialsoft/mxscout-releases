@@ -1,5 +1,13 @@
 # MxScout - Release Notes
 
+## MxScout 1.18.0  (November 15, 2026)
+- NEW: Location tabs. A row of tabs across the top of the window, one per location - a building, a store, a customer site, or anything else you want to keep apart. Each tab has its own cameras (VIDEO SOURCES) and its own LAYOUTS; click a tab and the left panel swaps to that location and the layout you had open there last comes back. Click [+] to add a tab.
+- Your existing cameras and layouts are all on the first tab, called Main (double-click a tab to rename it). To split them up: add a tab, then drag cameras from VIDEO SOURCES or a layout from LAYOUTS onto it - or right-click them and choose Move to Tab. A layout takes its cameras along.
+- Cameras you add (Scan for Cameras, Scan Remote Site, Add Camera by Address) land on the tab that is open.
+- Each tab shows how many cameras it has, and a red dot when cameras at that location aren't answering - so you can see trouble at another location without switching to it.
+- Right-click a tab to rename it, move it left or right, or delete it (drag tabs to reorder too). Deleting a tab never deletes cameras or layouts - they move to the tab next to it. Ctrl+Tab and Ctrl+Shift+Tab step through the tabs; Ctrl+T adds one.
+- With Users and Rights on: adding, renaming and moving tabs needs the Edit Layouts right, and a user only sees the tabs that have cameras they are allowed to see.
+
 ## MxScout 1.17.0  (November 11, 2026)
 - NEW: MxScout Setup can install for ALL USERS of a PC. The installer now asks who MxScout is for. "Just for me" is what it did before (your own Windows account, no administrator). "All users of this PC" installs in C:\Program Files\MxScout, where only an administrator can change the program - the usual way on business and shared PCs, and the one security software expects. Everyone who signs in gets the shortcuts; each person keeps their own cameras, layouts and settings.
 - For RMM tools: MxScout-Setup.exe /S /ALLUSERS installs for the whole PC without any windows. Run by the SYSTEM account (as RMM agents do) it chooses All users by itself.
