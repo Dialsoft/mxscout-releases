@@ -1,12 +1,12 @@
 {
-  "version": "1.18.0",
+  "version": "1.19.0",
   "published": "2026-11-15",
-  "notes": "•  NEW: Location tabs. A row of tabs across the top of the window, one per location - a building, a store, a customer site, or anything else you want to keep apart. Each tab has its own cameras (VIDEO SOURCES) and its own LAYOUTS; click a tab and the left panel swaps to that location and the layout you had open there last comes back. Click [+] to add a tab.\n•  Your existing cameras and layouts are all on the first tab, called Main (double-click a tab to rename it). To split them up: add a tab, then drag cameras from VIDEO SOURCES or a layout from LAYOUTS onto it - or right-click them and choose Move to Tab. A layout takes its cameras along.\n•  Cameras you add (Scan for Cameras, Scan Remote Site, Add Camera by Address) land on the tab that is open.\n•  Each tab shows how many cameras it has, and a red dot when cameras at that location aren't answering - so you can see trouble at another location without switching to it.\n•  Right-click a tab to rename it, move it left or right, or delete it (drag tabs to reorder too). Deleting a tab never deletes cameras or layouts - they move to the tab next to it. Ctrl+Tab and Ctrl+Shift+Tab step through the tabs; Ctrl+T adds one.\n•  With Users and Rights on: adding, renaming and moving tabs needs the Edit Layouts right, and a user only sees the tabs that have cameras they are allowed to see.",
+  "notes": "•  Scan for Cameras now asks one clear question at the top: Where are the cameras? - \"On this network\" or \"At a remote site (another location, over the internet)\". Choosing the remote site puts its boxes right in the window: Address, Ports from / to, Site name and your Saved sites. Example: address 108.170.94.18, ports 10000 to 10254, then click Scan Site (or press Enter). Every camera that answers is listed with its port, ready to tick and add. (The old Scan Remote Site button and its separate window are gone.)\n•  Paste shortcut: paste \"108.170.94.18:10000-10254\" or \"108.170.94.18 10000 10254\" into Address and the port boxes fill themselves in. The window shows how many ports will be tried.\n•  NEW: Add to tab (bottom of the Scan window). Choose which location tab the ticked cameras - and the new layout - go on, or pick \"(new tab...)\" to make one on the spot; a remote site's name is offered as the tab name, and a site whose name matches a tab picks that tab by itself. The main window switches to that tab when you close the scan.\n•  The Scan window opens the way you used it last, with your last site filled in. Sites are remembered when scanned - scanning one again later is pick it under Saved sites, click Scan Site.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.18.0",
-  "sha256": "b0cb38b2272f305223de206608025e21d1703fc10fad74df9df76ea5f01d6bcd",
-  "size": 39629221,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.18.0",
-  "setup_sha256": "efe8db5bc9a6f13b2d09886b497815ce7bd4087c5c70169996a5e454353209a5",
-  "setup_size": 28897857
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.19.0",
+  "sha256": "8e0751875c7adb8226fb5241a46eace4e263adde572d63deb3e3184b2c58c65e",
+  "size": 39643045,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.19.0",
+  "setup_sha256": "1e26bab5cad23ae38849f4df4b2be32f84edff4f1774060126f43b61dbdb63cc",
+  "setup_size": 28896937
 }
