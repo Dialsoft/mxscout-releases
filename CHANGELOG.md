@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.21.3  (November 15, 2026)
+- NEW: right-click a camera > Check Playback Via Camera. When playback via the camera shows nothing, this asks the camera for its recordings step by step - the same requests Playback makes - and shows how the camera answers each one, with a plain-English result at the bottom. Copy Report copies it all (no passwords) to paste into a message.
+
 ## MxScout 1.21.2  (November 15, 2026)
 - Via camera is now the default: every camera you add - local or remote - is set to Access recordings: Via camera. It works everywhere the live picture works, with nothing else to set up.
 - Cameras you already have keep their setting. To switch them: select them in VIDEO SOURCES (Ctrl+A for the whole tab), right-click > Access Recordings > Via Camera. For a camera on your own network whose recording folder this PC can open, Default recording path is faster.
