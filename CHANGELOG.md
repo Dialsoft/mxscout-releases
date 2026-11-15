@@ -1,5 +1,11 @@
 # MxScout - Release Notes
 
+## MxScout 1.19.0  (November 15, 2026)
+- Scan for Cameras now asks one clear question at the top: Where are the cameras? - "On this network" or "At a remote site (another location, over the internet)". Choosing the remote site puts its boxes right in the window: Address, Ports from / to, Site name and your Saved sites. Example: address 108.170.94.18, ports 10000 to 10254, then click Scan Site (or press Enter). Every camera that answers is listed with its port, ready to tick and add. (The old Scan Remote Site button and its separate window are gone.)
+- Paste shortcut: paste "108.170.94.18:10000-10254" or "108.170.94.18 10000 10254" into Address and the port boxes fill themselves in. The window shows how many ports will be tried.
+- NEW: Add to tab (bottom of the Scan window). Choose which location tab the ticked cameras - and the new layout - go on, or pick "(new tab...)" to make one on the spot; a remote site's name is offered as the tab name, and a site whose name matches a tab picks that tab by itself. The main window switches to that tab when you close the scan.
+- The Scan window opens the way you used it last, with your last site filled in. Sites are remembered when scanned - scanning one again later is pick it under Saved sites, click Scan Site.
+
 ## MxScout 1.18.0  (November 15, 2026)
 - NEW: Location tabs. A row of tabs across the top of the window, one per location - a building, a store, a customer site, or anything else you want to keep apart. Each tab has its own cameras (VIDEO SOURCES) and its own LAYOUTS; click a tab and the left panel swaps to that location and the layout you had open there last comes back. Click [+] to add a tab.
 - Your existing cameras and layouts are all on the first tab, called Main (double-click a tab to rename it). To split them up: add a tab, then drag cameras from VIDEO SOURCES or a layout from LAYOUTS onto it - or right-click them and choose Move to Tab. A layout takes its cameras along.
