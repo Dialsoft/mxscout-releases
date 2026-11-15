@@ -1,5 +1,13 @@
 # MxScout - Release Notes
 
+## MxScout 1.20.0  (November 15, 2026)
+- NEW: Scan for Cameras is now a step-by-step wizard, with the steps shown across the top and Back / Next at the bottom:
+- NEW: Totals above the camera list - Found, Ready, Password needed, Different subnet, Problem, Already in MxScout, New and Ticked to add - counting up live while the scan runs. Click a total to select those cameras: for example click Password needed, then Set Password, to give them all their login in one go.
+- Tick All New and Untick All buttons under the list. The Next button shows how many are ticked.
+- Scanning again (or scanning the same site twice) refreshes the cameras already in the list instead of listing them twice, and keeps your ticks. Going Back never loses what was found.
+- The scan no longer starts by itself when the window opens: step 1 shows what will be scanned first, and one click on Scan (or Enter) starts it.
+- Pending Adoption uses the same window, starting at the list.
+
 ## MxScout 1.19.1  (November 15, 2026)
 - Scan for Cameras: new "Log in with" boxes - User and Password - next to the scan button. Type the login your cameras use and MxScout tries it on every camera the scan finds, so they show up ready (green dot, name, model, preview) instead of "Password needed". Works for both kinds of scan and for Add by Address. Cameras with a different login still show Password needed - select them and click Set Password.
 - At a remote site the login is remembered with the site (the password encrypted for your Windows account): picking the site under Saved sites fills in the address, the ports and the login.
