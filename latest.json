@@ -1,12 +1,12 @@
 {
-  "version": "1.21.2",
+  "version": "1.21.3",
   "published": "2026-11-15",
-  "notes": "•  Via camera is now the default: every camera you add - local or remote - is set to Access recordings: Via camera. It works everywhere the live picture works, with nothing else to set up.\n•  Cameras you already have keep their setting. To switch them: select them in VIDEO SOURCES (Ctrl+A for the whole tab), right-click > Access Recordings > Via Camera. For a camera on your own network whose recording folder this PC can open, Default recording path is faster.",
+  "notes": "•  NEW: right-click a camera > Check Playback Via Camera. When playback via the camera shows nothing, this asks the camera for its recordings step by step - the same requests Playback makes - and shows how the camera answers each one, with a plain-English result at the bottom. Copy Report copies it all (no passwords) to paste into a message.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.21.2",
-  "sha256": "de237a6d49260415f6142ebfd3a5b1052e6f0268fba76d08eaa460f1cac5edf9",
-  "size": 39697829,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.21.2",
-  "setup_sha256": "042dacd76aafe5971adbec4d048f40a55136a6baa2642097847bd30862f9fafd",
-  "setup_size": 28899202
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.21.3",
+  "sha256": "c8c1676ba7400c2b8fd78b4736c49e8e81b89ed716c358f91f6504513a1f1f54",
+  "size": 39711653,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.21.3",
+  "setup_sha256": "25b4d2b1c6bf6b9fcf1000121f3cf63712fb9e5fe249b1dc403d44836bb7e3f9",
+  "setup_size": 28904389
 }
