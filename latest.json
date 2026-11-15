@@ -1,12 +1,12 @@
 {
-  "version": "1.21.0",
+  "version": "1.21.1",
   "published": "2026-11-15",
-  "notes": "•  Cameras at remote sites now play their recordings back THROUGH THE CAMERA, automatically. A remote camera records to a file server at its own site, and no UNC path or mapped drive reaches that from this PC - so MxScout asks the camera for the recordings instead, over the same connection as the live picture. Cameras added with \"At a remote site\" (or by a public address / forwarded port) are set to Playback from: Through the camera when they are added.\n•  Remote cameras you added with an earlier version are switched over once, the first time this version starts. Anything you set by hand in Camera Properties is left alone.\n•  Adding remote cameras no longer asks \"These cameras say they record to \\\\server\\share - add it?\" - that share can't be opened from here.\n•  NEW: right-click cameras in VIDEO SOURCES > Playback From > Through the Camera / Automatic / Recording Folder Only. Works on many cameras at once: select them with Ctrl or Shift (Ctrl+A for the whole tab). Takes effect right away.",
+  "notes": "•  Camera Properties now shows where recordings come from the way MxControlCenter does: a framed line \"Access recordings: Via camera\" (or Default recording path / Specific recording path) with a Change... button.\n•  Change... opens \"Access Recordings of [camera]\" with the three choices: Via camera; Default recording path (the camera's folder in your Recording Locations - it shows the folder it found); Specific recording path with Browse. A check box says what to do when a path can't be opened from this PC: go via the camera instead (the default), or show nothing.\n•  The right-click menu in VIDEO SOURCES uses the same words: Access Recordings > Via Camera / Default Recording Path / Recording Path Only.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.21.0",
-  "sha256": "1df455adc4019d76c286b301cc0f099db44b73414ed72cfee51ce4985b4785f8",
-  "size": 39687077,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.21.0",
-  "setup_sha256": "c6fa35db2a45aac408cb50cef4c349a6a0fa463a52aed2046ac48b5eee3656ce",
-  "setup_size": 28900647
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.21.1",
+  "sha256": "bd28486ef164d182c6609397de2bb1e49c793fd4d03924cb4751336cf5bd61bd",
+  "size": 39695781,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.21.1",
+  "setup_sha256": "fdbbbd30b4e0c3ce901ac10a905014002e6aa96f1279de479fb044b054d6ac86",
+  "setup_size": 28910549
 }
