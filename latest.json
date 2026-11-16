@@ -1,12 +1,12 @@
 {
-  "version": "1.24.2",
+  "version": "1.25.0",
   "published": "2026-11-15",
-  "notes": "•  Check Software Update Page now starts with the camera's date and time: the camera's clock next to this PC's, how far apart they are, and where the camera gets its time from (time server, when it last set its clock). More than 2 minutes apart is flagged as something to fix before any update.",
+  "notes": "•  NEW: Camera Software Update (Firmware) - right-click a camera. Updates one camera from a MOBOTIX .mpl file, the way the camera's own \"Update System Software\" page does it. The window shows what the camera runs now, checks its date and time, saves its configuration first, restarts it before the update if you want (MOBOTIX recommends that), sends the file with a progress bar, and shows the camera's own answer and update log. After you restart the camera it shows the version before and after.\n•  Safety: nothing starts until you have chosen a file, ticked that it is for this model, and confirmed. Once the file is on its way it can't be cancelled and the window stays open, because an interrupted update can damage a camera. MxScout never restarts a camera by itself after an upload.\n•  Recording Storage: \"Used\" and \"Space given\" are now read correctly from real cameras' status pages (they were blank), along with the recording target and age limit.\n•  The camera's factory IP is now read from real status pages (where it is called Serial Number).",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.24.2",
-  "sha256": "0fe19933da5b288e6fb6072cad5e5428f8915ed645da0cc1b3a2236693a4ece5",
-  "size": 39856549,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.24.2",
-  "setup_sha256": "c061ddea4e795935459438a4a19c8905320291213d0ab0771438ad9c53440c09",
-  "setup_size": 28930013
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.25.0",
+  "sha256": "941b42745290530e47ae2bb6d781b7b2ae086c9c597c23d23d6091f6169e7536",
+  "size": 39895461,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.25.0",
+  "setup_sha256": "7f13348359f66c25f7bdcef99d0368da934cdc3933374e9f0685a5cc1bb3cdf2",
+  "setup_size": 28940978
 }
