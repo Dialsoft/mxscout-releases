@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.26.1  (November 16, 2026)
+- FIXED: Set Camera Clock set the clock but then showed "The server committed a protocol violation". The camera's answer to that command is not quite by the book and MxScout refused to read it. Such answers are now accepted, and success is judged by reading the camera's clock back. The same fix helps other camera commands that answer the same way.
+
 ## MxScout 1.26.0  (November 16, 2026)
 - NEW: Set Camera Clock (from This PC) - right-click a camera. Sets the camera's date and time to this PC's, then reads it back to make sure it took. For cameras that come back from a restart in the year 2000.
 - NEW: Camera Clocks (File menu). Every camera's date and time next to this PC's, with its time server. Set the clock of the selected cameras, or of all cameras that are wrong, in one click.
