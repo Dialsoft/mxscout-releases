@@ -1,12 +1,12 @@
 {
-  "version": "1.24.0",
+  "version": "1.24.1",
   "published": "2026-11-15",
-  "notes": "•  NEW: Identify button, at the right-hand end of the toolbar (also in the View menu). It writes on every picture what that camera is: model, software (firmware) version, address and MAC address. Click again to take the labels away. Cameras whose model or version MxScout doesn't know yet are asked when you switch it on.",
+  "notes": "•  NEW: right-click a camera > Check Software Update Page. The first step toward updating camera software (firmware) from MxScout: it reads the camera's own update page and reports the current software version and how the camera wants an update file sent. Reading only - nothing is uploaded or changed.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.24.0",
-  "sha256": "3aba17488eb22d2cbb19e43230256fb433c0f0bfb07d33f1e3e635c7c78f1bff",
-  "size": 39838629,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.24.0",
-  "setup_sha256": "275912591b423e1a1da405395b14654fd72fb3e86935852dad72fde026a78476",
-  "setup_size": 28932307
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.24.1",
+  "sha256": "6d74b878da2b1f33a43eadec12201ce50c9f44ba352569a6b42073195125b540",
+  "size": 39850917,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.24.1",
+  "setup_sha256": "3a75ca9ecd9eba3b08dc0b3a6def93bcfd991856878fafe5f3611ac4a8b19b9e",
+  "setup_size": 28950469
 }
