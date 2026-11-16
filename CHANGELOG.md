@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.29.0  (November 16, 2026)
+- NEW: Low-Resolution Grid (View menu, and in Settings). For a PC that struggles with many cameras at once: with more than one camera on screen, every camera is asked for a picture one size smaller and compressed a little harder - about a quarter of the work per picture. The grid looks softer; a camera shown alone still gets its full picture. Off unless you tick it; takes effect at once.
+
 ## MxScout 1.28.2  (November 16, 2026)
 - FIXED: after the screen size changed (for example in a remote-control session) part of the window stayed white: the right end of the toolbar and tab row, and the empty tiles at the right and bottom, while the live pictures carried on. MxScout now repaints its whole window whenever the window's size or the screen changes.
 
