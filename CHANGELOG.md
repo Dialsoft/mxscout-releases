@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.28.1  (November 16, 2026)
+- FIXED: Identify showed "Records to: (the camera doesn't say)" although the camera does say (seen on an i25). The storage part of the camera's status page is now read in a way that stray tabs and spacing on the page can't upset. The same fix applies to the Used and Space given columns in Recording Storage.
+
 ## MxScout 1.28.0  (November 16, 2026)
 - Identify now also shows where each camera records to (file server and path, or SD card) and how it is set to record: frames a second and recording mode - or that recording is switched off. Read from the camera when Identify is switched on, and refreshed every 10 minutes. On small tiles these two lines are left out to keep the label readable.
 
