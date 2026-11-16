@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.24.1  (November 15, 2026)
+- NEW: right-click a camera > Check Software Update Page. The first step toward updating camera software (firmware) from MxScout: it reads the camera's own update page and reports the current software version and how the camera wants an update file sent. Reading only - nothing is uploaded or changed.
+
 ## MxScout 1.24.0  (November 15, 2026)
 - NEW: Identify button, at the right-hand end of the toolbar (also in the View menu). It writes on every picture what that camera is: model, software (firmware) version, address and MAC address. Click again to take the labels away. Cameras whose model or version MxScout doesn't know yet are asked when you switch it on.
 
