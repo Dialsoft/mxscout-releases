@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.24.0  (November 15, 2026)
+- NEW: Identify button, at the right-hand end of the toolbar (also in the View menu). It writes on every picture what that camera is: model, software (firmware) version, address and MAC address. Click again to take the labels away. Cameras whose model or version MxScout doesn't know yet are asked when you switch it on.
+
 ## MxScout 1.23.2  (November 15, 2026)
 - FIXED: no sound at all in 1.23.1. That version only played sound blocks carrying a certain mark, and real cameras don't use that mark. Sound blocks are now recognized by their time stamp instead, which still keeps other data and stray bytes from being played as hiss.
 - Help > Sound Check now lists the kinds of sound blocks the cameras send, and what was left out.
