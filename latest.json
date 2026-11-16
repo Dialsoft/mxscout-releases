@@ -1,12 +1,12 @@
 {
-  "version": "1.26.4",
+  "version": "1.26.5",
   "published": "2026-11-16",
-  "notes": "•  Camera names read from the picture no longer carry the network's filler (\"Home-Basement.localdomain\" is now \"Home-Basement\"). Names that already have it are trimmed a few seconds after MxScout starts.",
+  "notes": "•  Camera Software Update now says plainly how the upload went. It reads the camera's answer and shows SUCCESS in green (or the problem in red) on the status line and at the end of the text, instead of leaving you to find the camera's sentence further up. On success it offers to restart the camera right away.\n•  FIXED: clicking Copy Report replaced the status line with \"Copied.\", hiding what to do next. The note is now shown on the button.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.26.4",
-  "sha256": "ea7ea4bb618e9b968e0c18e7831157a218f241ac085cceaef7378848785b03f0",
-  "size": 39940517,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.26.4",
-  "setup_sha256": "49be9366b007044744a57e5d42f18d6e9363410f84f72f379d82a3c769315d5b",
-  "setup_size": 28986719
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.26.5",
+  "sha256": "7cbe428bae826237d8d9264ee7f78e754d7632630afcd6677a09d4948edc6efe",
+  "size": 39945125,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.26.5",
+  "setup_sha256": "7d1251102b1fed74d925877638fc7ac5d524e75e9ed70bb4b45f9586e281c4b4",
+  "setup_size": 28953743
 }
