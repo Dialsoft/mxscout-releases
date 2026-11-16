@@ -1,5 +1,12 @@
 # MxScout - Release Notes
 
+## MxScout 1.22.0  (November 15, 2026)
+- Playback VIA CAMERA now works the way MxControlCenter does it - including continuous recording. MxScout reads the camera's own recording folders through the camera's web port (the same folders that are on the file server), so every recorded minute shows on the timeline and plays, not just alarms. Nothing to set up: it needs only the camera's login, and works for cameras at remote sites.
+- How it finds a moment: the camera has no list of which recording is when, so MxScout looks at a recording's time, sees whether that is too early or too late, and tries again closer - a handful of small requests. Times it has learned are remembered, so moving around the same day gets quicker. The first jump to a new day takes a few seconds.
+- Each recording is fetched in pieces, three at a time. Over a slow site connection a minute of video can take several seconds to arrive.
+- Cameras that don't publish their recording folders (for example recording only to internal memory) still use the camera's alarm list, as before.
+- Check Playback Via Camera now also tests this: whether the folders are there, and which recording it finds for 30 minutes ago and 26 hours ago.
+
 ## MxScout 1.21.4  (November 15, 2026)
 - FIXED (playback via camera, real cameras): MxScout now reads the camera's own answers correctly - the oldest and newest recording (it used to take the newest for both, so the timeline covered almost nothing) and the camera's list of recordings (each entry carries a small list of its own, which made MxScout skip every entry). Event recordings (alarms) now show on the timeline and play.
 - Not done yet: footage a camera records CONTINUOUSLY between events doesn't show via the camera yet - the camera's list only names alarms. The two tools below are for working that out.
