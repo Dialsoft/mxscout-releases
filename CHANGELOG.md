@@ -1,5 +1,9 @@
 # MxScout - Release Notes
 
+## MxScout 1.23.1  (November 15, 2026)
+- FIXED: bursts of loud hiss (white noise) in the sound. MxScout played every block in the camera's sound channel as sound - also blocks that hold other data, and in live view even stray bytes of the picture that looked like the start of one. Now only blocks marked as microphone sound are played.
+- Help > Sound Check lists what was left out, so it is easy to see what a camera sends besides sound.
+
 ## MxScout 1.23.0  (November 15, 2026)
 - PLAYBACK VIA CAMERA, SMOOTHER: the next recordings are now fetched ahead while one plays (more of them when you fast-forward or rewind), so playback no longer stops to load at every minute. Fast forward and rewind work through the camera now.
 - Playback no longer pauses every two minutes while MxScout re-asks the camera what it holds - that happens in the background now.
