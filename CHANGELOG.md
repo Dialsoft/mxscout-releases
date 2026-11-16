@@ -1,5 +1,9 @@
 # MxScout - Release Notes
 
+## MxScout 1.23.2  (November 15, 2026)
+- FIXED: no sound at all in 1.23.1. That version only played sound blocks carrying a certain mark, and real cameras don't use that mark. Sound blocks are now recognized by their time stamp instead, which still keeps other data and stray bytes from being played as hiss.
+- Help > Sound Check now lists the kinds of sound blocks the cameras send, and what was left out.
+
 ## MxScout 1.23.1  (November 15, 2026)
 - FIXED: bursts of loud hiss (white noise) in the sound. MxScout played every block in the camera's sound channel as sound - also blocks that hold other data, and in live view even stray bytes of the picture that looked like the start of one. Now only blocks marked as microphone sound are played.
 - Help > Sound Check lists what was left out, so it is easy to see what a camera sends besides sound.
