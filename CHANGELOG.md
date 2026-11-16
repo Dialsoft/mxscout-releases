@@ -1,5 +1,13 @@
 # MxScout - Release Notes
 
+## MxScout 1.23.0  (November 15, 2026)
+- PLAYBACK VIA CAMERA, SMOOTHER: the next recordings are now fetched ahead while one plays (more of them when you fast-forward or rewind), so playback no longer stops to load at every minute. Fast forward and rewind work through the camera now.
+- Playback no longer pauses every two minutes while MxScout re-asks the camera what it holds - that happens in the background now.
+- The still picture shown while a recording loads is fetched alongside the video instead of before it, so the video starts sooner.
+- The tile's technical info shows how long the last recording took to arrive from the camera and the line speed that works out to.
+- NEW: TIME ZONES. Each location tab has a time zone (right-click the tab > Time Zone...). Recording times on the tab - the playback bar, the timeline, the red PLAYBACK line, exports - are shown in the location's own time, so 9:00 AM means 9:00 AM there wherever you look from. When that isn't this PC's time, the zone's short name (PST, CDT ...) is written next to it and the status bar shows both clocks. Tabs left on "Same as this PC" work exactly as before. Daylight saving follows Windows' rules for the zone.
+- NEW: RECORDING STORAGE (File menu). One line per camera, asked from the camera itself: space used, space given, days of recordings kept, how old the newest recording is. MxScout also checks all cameras in the background (every 30 minutes; adjustable) and shows a red warning at the bottom of the window when a camera that records all the time has stopped recording, or keeps fewer days than you ask for.
+
 ## MxScout 1.22.4  (November 15, 2026)
 - The red playback line at the top of a tile now shows the day of the week in front of the date (Sun 2026-11-15 19:31:30).
 
