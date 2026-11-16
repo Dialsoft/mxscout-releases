@@ -1,12 +1,12 @@
 {
-  "version": "1.26.5",
+  "version": "1.27.0",
   "published": "2026-11-16",
-  "notes": "•  Camera Software Update now says plainly how the upload went. It reads the camera's answer and shows SUCCESS in green (or the problem in red) on the status line and at the end of the text, instead of leaving you to find the camera's sentence further up. On success it offers to restart the camera right away.\n•  FIXED: clicking Copy Report replaced the status line with \"Copied.\", hiding what to do next. The note is now shown on the button.",
+  "notes": "•  NEW: Admin Menu and Setup Menu - right-click a camera. They open the camera's own two menus in your browser, already logged in, as MxControlCenter did. The Admin Menu needs the camera's admin login in MxScout.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.26.5",
-  "sha256": "7cbe428bae826237d8d9264ee7f78e754d7632630afcd6677a09d4948edc6efe",
-  "size": 39945125,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.26.5",
-  "setup_sha256": "7d1251102b1fed74d925877638fc7ac5d524e75e9ed70bb4b45f9586e281c4b4",
-  "setup_size": 28953743
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.27.0",
+  "sha256": "58e2f364d0367da1b2161825a40088733e35a07762cd99fff6d35788e732ff99",
+  "size": 39947685,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.27.0",
+  "setup_sha256": "00e3ad77597117b2b474bbccd4c19c64e8244298d8833edf924bfdacb3e1ecd5",
+  "setup_size": 28953600
 }
