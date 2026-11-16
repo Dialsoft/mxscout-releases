@@ -1,12 +1,12 @@
 {
-  "version": "1.24.1",
+  "version": "1.24.2",
   "published": "2026-11-15",
-  "notes": "•  NEW: right-click a camera > Check Software Update Page. The first step toward updating camera software (firmware) from MxScout: it reads the camera's own update page and reports the current software version and how the camera wants an update file sent. Reading only - nothing is uploaded or changed.",
+  "notes": "•  Check Software Update Page now starts with the camera's date and time: the camera's clock next to this PC's, how far apart they are, and where the camera gets its time from (time server, when it last set its clock). More than 2 minutes apart is flagged as something to fix before any update.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.24.1",
-  "sha256": "6d74b878da2b1f33a43eadec12201ce50c9f44ba352569a6b42073195125b540",
-  "size": 39850917,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.24.1",
-  "setup_sha256": "3a75ca9ecd9eba3b08dc0b3a6def93bcfd991856878fafe5f3611ac4a8b19b9e",
-  "setup_size": 28950469
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.24.2",
+  "sha256": "0fe19933da5b288e6fb6072cad5e5428f8915ed645da0cc1b3a2236693a4ece5",
+  "size": 39856549,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.24.2",
+  "setup_sha256": "c061ddea4e795935459438a4a19c8905320291213d0ab0771438ad9c53440c09",
+  "setup_size": 28930013
 }
