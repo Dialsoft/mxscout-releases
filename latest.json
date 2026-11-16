@@ -1,12 +1,12 @@
 {
-  "version": "1.27.0",
+  "version": "1.27.1",
   "published": "2026-11-16",
-  "notes": "•  NEW: Admin Menu and Setup Menu - right-click a camera. They open the camera's own two menus in your browser, already logged in, as MxControlCenter did. The Admin Menu needs the camera's admin login in MxScout.",
+  "notes": "•  The right-click entries that open the camera in your browser now say so: Open Camera Interface (Web).",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.27.0",
-  "sha256": "58e2f364d0367da1b2161825a40088733e35a07762cd99fff6d35788e732ff99",
-  "size": 39947685,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.27.0",
-  "setup_sha256": "00e3ad77597117b2b474bbccd4c19c64e8244298d8833edf924bfdacb3e1ecd5",
-  "setup_size": 28953600
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.27.1",
+  "sha256": "6adaf8571dddbd00f33be3821b348dd202edf732f4509e35b5cde814c156f1cc",
+  "size": 39948709,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.27.1",
+  "setup_sha256": "2eeff49398a94ec76f1c8cf7556cd570164b13cdf94a04aad71a33e07ca37425",
+  "setup_size": 28945173
 }
