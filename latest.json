@@ -1,12 +1,12 @@
 {
-  "version": "1.28.0",
+  "version": "1.28.1",
   "published": "2026-11-16",
-  "notes": "•  Identify now also shows where each camera records to (file server and path, or SD card) and how it is set to record: frames a second and recording mode - or that recording is switched off. Read from the camera when Identify is switched on, and refreshed every 10 minutes. On small tiles these two lines are left out to keep the label readable.",
+  "notes": "•  FIXED: Identify showed \"Records to: (the camera doesn't say)\" although the camera does say (seen on an i25). The storage part of the camera's status page is now read in a way that stray tabs and spacing on the page can't upset. The same fix applies to the Used and Space given columns in Recording Storage.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.28.0",
-  "sha256": "53516689cc54522ecde928fbabe03db490270f6916d6ac11c6ef4c59f1aaf0e4",
-  "size": 39954341,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.28.0",
-  "setup_sha256": "ff012a84030a6f373af496317601fc6df6672cd02ad411079278e186c80932ac",
-  "setup_size": 28953075
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.28.1",
+  "sha256": "65755160af7b850f07d367177654f37bc65012408e6e769c661765d0da369c5a",
+  "size": 39955877,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.28.1",
+  "setup_sha256": "6cf80f99cef5fe6c9c0c341c7a33388d1ac96c4673ba8057aba8c6b2180a1217",
+  "setup_size": 28979952
 }
