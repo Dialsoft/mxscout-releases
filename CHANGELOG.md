@@ -1,5 +1,12 @@
 # MxScout - Release Notes
 
+## MxScout 1.26.0  (November 16, 2026)
+- NEW: Set Camera Clock (from This PC) - right-click a camera. Sets the camera's date and time to this PC's, then reads it back to make sure it took. For cameras that come back from a restart in the year 2000.
+- NEW: Camera Clocks (File menu). Every camera's date and time next to this PC's, with its time server. Set the clock of the selected cameras, or of all cameras that are wrong, in one click.
+- NEW (optional, off until you switch it on): Set wrong clocks automatically. MxScout's background check then sets any camera clock that is more than 2 minutes off, by itself, and lists what it did in the Camera Clocks window.
+- A red "Clock wrong" warning appears at the bottom of the window when the background check finds a camera with a wrong clock.
+- Recording Storage now says "the camera's clock is wrong" for a camera whose recordings are dated years off, instead of "recording stopped".
+
 ## MxScout 1.25.1  (November 16, 2026)
 - NEW: right-click a camera > Check Time Settings. For a camera whose date and time are wrong or keep jumping back to the year 2000: a read-only report of its clock, its time server and when it last reached it, its network settings and its Time & Date page.
 
