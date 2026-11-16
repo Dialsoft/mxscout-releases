@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.22.4  (November 15, 2026)
+- The red playback line at the top of a tile now shows the day of the week in front of the date (Sun 2026-11-15 19:31:30).
+
 ## MxScout 1.22.3  (November 15, 2026)
 - FIXED: the date box in the playback bar. While a recording was playing, the box was set back to the playing time many times a second, so a date you picked was gone before you could click Go. The box now keeps what you chose until you go there.
 - Picking a day in the drop-down calendar now jumps there right away; after typing a date or time, press Enter or click Go.
