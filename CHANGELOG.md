@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.27.0  (November 16, 2026)
+- NEW: Admin Menu and Setup Menu - right-click a camera. They open the camera's own two menus in your browser, already logged in, as MxControlCenter did. The Admin Menu needs the camera's admin login in MxScout.
+
 ## MxScout 1.26.5  (November 16, 2026)
 - Camera Software Update now says plainly how the upload went. It reads the camera's answer and shows SUCCESS in green (or the problem in red) on the status line and at the end of the text, instead of leaving you to find the camera's sentence further up. On success it offers to restart the camera right away.
 - FIXED: clicking Copy Report replaced the status line with "Copied.", hiding what to do next. The note is now shown on the button.
