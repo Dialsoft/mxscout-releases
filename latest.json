@@ -1,12 +1,12 @@
 {
-  "version": "1.26.0",
+  "version": "1.26.1",
   "published": "2026-11-16",
-  "notes": "•  NEW: Set Camera Clock (from This PC) - right-click a camera. Sets the camera's date and time to this PC's, then reads it back to make sure it took. For cameras that come back from a restart in the year 2000.\n•  NEW: Camera Clocks (File menu). Every camera's date and time next to this PC's, with its time server. Set the clock of the selected cameras, or of all cameras that are wrong, in one click.\n•  NEW (optional, off until you switch it on): Set wrong clocks automatically. MxScout's background check then sets any camera clock that is more than 2 minutes off, by itself, and lists what it did in the Camera Clocks window.\n•  A red \"Clock wrong\" warning appears at the bottom of the window when the background check finds a camera with a wrong clock.\n•  Recording Storage now says \"the camera's clock is wrong\" for a camera whose recordings are dated years off, instead of \"recording stopped\".",
+  "notes": "•  FIXED: Set Camera Clock set the clock but then showed \"The server committed a protocol violation\". The camera's answer to that command is not quite by the book and MxScout refused to read it. Such answers are now accepted, and success is judged by reading the camera's clock back. The same fix helps other camera commands that answer the same way.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.26.0",
-  "sha256": "22e40acbd88d99d3438692ec1b7e4bf6fa02bf474c04478f0e76ab65b02e3c59",
-  "size": 39926181,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.26.0",
-  "setup_sha256": "d28b3e0f1cacc806910b91cc73185e60a448ac48b857420d5739f91707ae1210",
-  "setup_size": 28969358
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.26.1",
+  "sha256": "75b10626278e2eb5b5463000a7608510dd1f28c1654bb56f8fd64603a0e5d79a",
+  "size": 39928741,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.26.1",
+  "setup_sha256": "8cf079781ef21d4d0df464c0afa568bb3009aac219f139d47695eb577cfc2212",
+  "setup_size": 28959356
 }
