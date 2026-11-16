@@ -1,12 +1,12 @@
 {
-  "version": "1.23.1",
+  "version": "1.23.2",
   "published": "2026-11-15",
-  "notes": "•  FIXED: bursts of loud hiss (white noise) in the sound. MxScout played every block in the camera's sound channel as sound - also blocks that hold other data, and in live view even stray bytes of the picture that looked like the start of one. Now only blocks marked as microphone sound are played.\n•  Help > Sound Check lists what was left out, so it is easy to see what a camera sends besides sound.",
+  "notes": "•  FIXED: no sound at all in 1.23.1. That version only played sound blocks carrying a certain mark, and real cameras don't use that mark. Sound blocks are now recognized by their time stamp instead, which still keeps other data and stray bytes from being played as hiss.\n•  Help > Sound Check now lists the kinds of sound blocks the cameras send, and what was left out.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.23.1",
-  "sha256": "543be593fc3592ac1cbb306eea0b4904b20f1b72a3879046a54930a743ed8e97",
-  "size": 39830949,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.23.1",
-  "setup_sha256": "873dedc6060886969868c53e89c1ccd4f270c9311c7380887634ba327829afbe",
-  "setup_size": 28929402
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.23.2",
+  "sha256": "8f7a0369432bbc8919085069ca397e9311e9927487c24661c0a16a9100f3bacd",
+  "size": 39833509,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.23.2",
+  "setup_sha256": "eb8ea0393ae55cb34b6b1cbc1f1c7cf06ddcdeaf9d3f39dd36be99e2bc5f1db6",
+  "setup_size": 28928302
 }
