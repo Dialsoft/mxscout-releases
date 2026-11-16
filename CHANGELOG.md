@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.25.1  (November 16, 2026)
+- NEW: right-click a camera > Check Time Settings. For a camera whose date and time are wrong or keep jumping back to the year 2000: a read-only report of its clock, its time server and when it last reached it, its network settings and its Time & Date page.
+
 ## MxScout 1.25.0  (November 15, 2026)
 - NEW: Camera Software Update (Firmware) - right-click a camera. Updates one camera from a MOBOTIX .mpl file, the way the camera's own "Update System Software" page does it. The window shows what the camera runs now, checks its date and time, saves its configuration first, restarts it before the update if you want (MOBOTIX recommends that), sends the file with a progress bar, and shows the camera's own answer and update log. After you restart the camera it shows the version before and after.
 - Safety: nothing starts until you have chosen a file, ticked that it is for this model, and confirmed. Once the file is on its way it can't be cancelled and the window stays open, because an interrupted update can damage a camera. MxScout never restarts a camera by itself after an upload.
