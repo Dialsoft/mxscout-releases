@@ -1,12 +1,12 @@
 {
-  "version": "1.23.2",
+  "version": "1.24.0",
   "published": "2026-11-15",
-  "notes": "•  FIXED: no sound at all in 1.23.1. That version only played sound blocks carrying a certain mark, and real cameras don't use that mark. Sound blocks are now recognized by their time stamp instead, which still keeps other data and stray bytes from being played as hiss.\n•  Help > Sound Check now lists the kinds of sound blocks the cameras send, and what was left out.",
+  "notes": "•  NEW: Identify button, at the right-hand end of the toolbar (also in the View menu). It writes on every picture what that camera is: model, software (firmware) version, address and MAC address. Click again to take the labels away. Cameras whose model or version MxScout doesn't know yet are asked when you switch it on.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.23.2",
-  "sha256": "8f7a0369432bbc8919085069ca397e9311e9927487c24661c0a16a9100f3bacd",
-  "size": 39833509,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.23.2",
-  "setup_sha256": "eb8ea0393ae55cb34b6b1cbc1f1c7cf06ddcdeaf9d3f39dd36be99e2bc5f1db6",
-  "setup_size": 28928302
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.24.0",
+  "sha256": "3aba17488eb22d2cbb19e43230256fb433c0f0bfb07d33f1e3e635c7c78f1bff",
+  "size": 39838629,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.24.0",
+  "setup_sha256": "275912591b423e1a1da405395b14654fd72fb3e86935852dad72fde026a78476",
+  "setup_size": 28932307
 }
