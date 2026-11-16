@@ -1,12 +1,12 @@
 {
-  "version": "1.28.1",
+  "version": "1.28.2",
   "published": "2026-11-16",
-  "notes": "•  FIXED: Identify showed \"Records to: (the camera doesn't say)\" although the camera does say (seen on an i25). The storage part of the camera's status page is now read in a way that stray tabs and spacing on the page can't upset. The same fix applies to the Used and Space given columns in Recording Storage.",
+  "notes": "•  FIXED: after the screen size changed (for example in a remote-control session) part of the window stayed white: the right end of the toolbar and tab row, and the empty tiles at the right and bottom, while the live pictures carried on. MxScout now repaints its whole window whenever the window's size or the screen changes.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.28.1",
-  "sha256": "65755160af7b850f07d367177654f37bc65012408e6e769c661765d0da369c5a",
-  "size": 39955877,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.28.1",
-  "setup_sha256": "6cf80f99cef5fe6c9c0c341c7a33388d1ac96c4673ba8057aba8c6b2180a1217",
-  "setup_size": 28979952
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.28.2",
+  "sha256": "1f59a2a2f42f6c83882932cd1228676a238dfb92b6b130e8c8443a69adcb5ea5",
+  "size": 39958437,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.28.2",
+  "setup_sha256": "5ff85808ddd416a7c6c900d1585773bf2d48a38354ac0a80f6ea4fd62468e34b",
+  "setup_size": 28981085
 }
