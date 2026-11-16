@@ -1,5 +1,10 @@
 # MxScout - Release Notes
 
+## MxScout 1.22.2  (November 15, 2026)
+- FIXED: the date box in the playback bar. While a recording was playing, the box was set back to the playing time many times a second, so a date you picked was gone before you could click Go. The box now keeps what you chose until you go there.
+- Picking a day in the drop-down calendar now jumps there right away; after typing a date or time, press Enter or click Go.
+- NEW: a Stop button in the playback bar (and Stop in the Playback menu). It stops playing, leaves the picture where it is and sets the speed back to normal, so the next Play is plain 1x forwards. Pause is unchanged: it keeps the speed and direction.
+
 ## MxScout 1.22.1  (November 15, 2026)
 - FIXED: playback via camera showed nothing on cameras whose factory IP address MxScout couldn't read (seen on an M25 with firmware MX-V4.7) - it never got as far as the recordings. It no longer needs that address at all.
 - Playback via camera now asks the camera directly "which recording starts at this time?" - one small request, answered with the recording's number and exact start. An hour of timeline costs two such requests, and a recording's whole video comes in one request. Much less back-and-forth than before, which matters over a slow site connection.
