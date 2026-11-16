@@ -1,5 +1,9 @@
 # MxScout - Release Notes
 
+## MxScout 1.26.5  (November 16, 2026)
+- Camera Software Update now says plainly how the upload went. It reads the camera's answer and shows SUCCESS in green (or the problem in red) on the status line and at the end of the text, instead of leaving you to find the camera's sentence further up. On success it offers to restart the camera right away.
+- FIXED: clicking Copy Report replaced the status line with "Copied.", hiding what to do next. The note is now shown on the button.
+
 ## MxScout 1.26.4  (November 16, 2026)
 - Camera names read from the picture no longer carry the network's filler ("Home-Basement.localdomain" is now "Home-Basement"). Names that already have it are trimmed a few seconds after MxScout starts.
 
