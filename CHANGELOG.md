@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.28.0  (November 16, 2026)
+- Identify now also shows where each camera records to (file server and path, or SD card) and how it is set to record: frames a second and recording mode - or that recording is switched off. Read from the camera when Identify is switched on, and refreshed every 10 minutes. On small tiles these two lines are left out to keep the label readable.
+
 ## MxScout 1.27.1  (November 16, 2026)
 - The right-click entries that open the camera in your browser now say so: Open Camera Interface (Web).
 
