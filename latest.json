@@ -1,12 +1,12 @@
 {
-  "version": "1.28.2",
+  "version": "1.29.0",
   "published": "2026-11-16",
-  "notes": "•  FIXED: after the screen size changed (for example in a remote-control session) part of the window stayed white: the right end of the toolbar and tab row, and the empty tiles at the right and bottom, while the live pictures carried on. MxScout now repaints its whole window whenever the window's size or the screen changes.",
+  "notes": "•  NEW: Low-Resolution Grid (View menu, and in Settings). For a PC that struggles with many cameras at once: with more than one camera on screen, every camera is asked for a picture one size smaller and compressed a little harder - about a quarter of the work per picture. The grid looks softer; a camera shown alone still gets its full picture. Off unless you tick it; takes effect at once.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.28.2",
-  "sha256": "1f59a2a2f42f6c83882932cd1228676a238dfb92b6b130e8c8443a69adcb5ea5",
-  "size": 39958437,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.28.2",
-  "setup_sha256": "5ff85808ddd416a7c6c900d1585773bf2d48a38354ac0a80f6ea4fd62468e34b",
-  "setup_size": 28981085
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.29.0",
+  "sha256": "900727619bf6b6f3f7404b3057e2bec96babf41a7c986fa306180c2c40725e2a",
+  "size": 39963045,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.29.0",
+  "setup_sha256": "e8583fa89cd5dc9ba4b6828bbf56fb30b833e6d6e15a21b10fd91bab9c2b4bfc",
+  "setup_size": 28980946
 }
