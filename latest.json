@@ -1,12 +1,12 @@
 {
-  "version": "1.26.3",
+  "version": "1.26.4",
   "published": "2026-11-16",
-  "notes": "•  FIXED: cameras added under the name \"Error 401: Unauthorized access\". When a camera doesn't let the login open its start page, it answers with an error page - and MxScout took that page's title for the camera's name. Error pages are no longer used as names.\n•  Cameras that already carry such a name are renamed by themselves a few seconds after MxScout starts, to the camera's real name.\n•  Name, model, software version and MAC address are now also read from the camera's picture, which works for logins that may watch but not open the camera's pages. That fills the empty Model column for such cameras.\n•  Pending Adoption no longer lists cameras that are already added but whose MAC address MxScout hadn't learned.",
+  "notes": "•  Camera names read from the picture no longer carry the network's filler (\"Home-Basement.localdomain\" is now \"Home-Basement\"). Names that already have it are trimmed a few seconds after MxScout starts.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.26.3",
-  "sha256": "0766e398967057418b1d46d6c36cea62966f9f89f5da5e4098a304a9585ff184",
-  "size": 39938981,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.26.3",
-  "setup_sha256": "3890b951b8f818bb3ac6674cce9dd86d0d331f35163d168ea27bc72a2560920c",
-  "setup_size": 28950735
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.26.4",
+  "sha256": "ea7ea4bb618e9b968e0c18e7831157a218f241ac085cceaef7378848785b03f0",
+  "size": 39940517,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.26.4",
+  "setup_sha256": "49be9366b007044744a57e5d42f18d6e9363410f84f72f379d82a3c769315d5b",
+  "setup_size": 28986719
 }
