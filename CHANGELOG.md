@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.26.4  (November 16, 2026)
+- Camera names read from the picture no longer carry the network's filler ("Home-Basement.localdomain" is now "Home-Basement"). Names that already have it are trimmed a few seconds after MxScout starts.
+
 ## MxScout 1.26.3  (November 16, 2026)
 - FIXED: cameras added under the name "Error 401: Unauthorized access". When a camera doesn't let the login open its start page, it answers with an error page - and MxScout took that page's title for the camera's name. Error pages are no longer used as names.
 - Cameras that already carry such a name are renamed by themselves a few seconds after MxScout starts, to the camera's real name.
