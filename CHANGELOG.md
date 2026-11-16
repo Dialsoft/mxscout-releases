@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.28.2  (November 16, 2026)
+- FIXED: after the screen size changed (for example in a remote-control session) part of the window stayed white: the right end of the toolbar and tab row, and the empty tiles at the right and bottom, while the live pictures carried on. MxScout now repaints its whole window whenever the window's size or the screen changes.
+
 ## MxScout 1.28.1  (November 16, 2026)
 - FIXED: Identify showed "Records to: (the camera doesn't say)" although the camera does say (seen on an i25). The storage part of the camera's status page is now read in a way that stray tabs and spacing on the page can't upset. The same fix applies to the Used and Space given columns in Recording Storage.
 
