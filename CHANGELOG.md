@@ -1,5 +1,11 @@
 # MxScout - Release Notes
 
+## MxScout 1.25.0  (November 15, 2026)
+- NEW: Camera Software Update (Firmware) - right-click a camera. Updates one camera from a MOBOTIX .mpl file, the way the camera's own "Update System Software" page does it. The window shows what the camera runs now, checks its date and time, saves its configuration first, restarts it before the update if you want (MOBOTIX recommends that), sends the file with a progress bar, and shows the camera's own answer and update log. After you restart the camera it shows the version before and after.
+- Safety: nothing starts until you have chosen a file, ticked that it is for this model, and confirmed. Once the file is on its way it can't be cancelled and the window stays open, because an interrupted update can damage a camera. MxScout never restarts a camera by itself after an upload.
+- Recording Storage: "Used" and "Space given" are now read correctly from real cameras' status pages (they were blank), along with the recording target and age limit.
+- The camera's factory IP is now read from real status pages (where it is called Serial Number).
+
 ## MxScout 1.24.2  (November 15, 2026)
 - Check Software Update Page now starts with the camera's date and time: the camera's clock next to this PC's, how far apart they are, and where the camera gets its time from (time server, when it last set its clock). More than 2 minutes apart is flagged as something to fix before any update.
 
