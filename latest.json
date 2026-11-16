@@ -1,12 +1,12 @@
 {
-  "version": "1.22.3",
+  "version": "1.22.4",
   "published": "2026-11-15",
-  "notes": "•  FIXED: the date box in the playback bar. While a recording was playing, the box was set back to the playing time many times a second, so a date you picked was gone before you could click Go. The box now keeps what you chose until you go there.\n•  Picking a day in the drop-down calendar now jumps there right away; after typing a date or time, press Enter or click Go.\n•  NEW: a Stop button in the playback bar (and Stop in the Playback menu). It stops playing, leaves the picture where it is and sets the speed back to normal, so the next Play is plain 1x forwards. Pause is unchanged: it keeps the speed and direction.",
+  "notes": "•  The red playback line at the top of a tile now shows the day of the week in front of the date (Sun 2026-11-15 19:31:30).",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.22.3",
-  "sha256": "3c6d52ac9773603fab795554d4267cc5a0f5ebc31f9f52a729e54216d35c76fb",
-  "size": 39761317,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.22.3",
-  "setup_sha256": "e8ca1535dc3534eeb605b51bf2bf5aaacb3ad9c6f38887d57452075b2a73f6a2",
-  "setup_size": 28917298
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.22.4",
+  "sha256": "dd82ae82c491d06a5dc02d841974cb1a47db004f22fb8881dde6de8929112369",
+  "size": 39761829,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.22.4",
+  "setup_sha256": "982e63dd2a84e9cc7c384d6f124bb3dabc84dfec8b6b8915990597ecbb317725",
+  "setup_size": 28924603
 }
