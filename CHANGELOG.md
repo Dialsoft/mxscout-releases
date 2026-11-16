@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.27.1  (November 16, 2026)
+- The right-click entries that open the camera in your browser now say so: Open Camera Interface (Web).
+
 ## MxScout 1.27.0  (November 16, 2026)
 - NEW: Admin Menu and Setup Menu - right-click a camera. They open the camera's own two menus in your browser, already logged in, as MxControlCenter did. The Admin Menu needs the camera's admin login in MxScout.
 
