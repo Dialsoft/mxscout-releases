@@ -1,12 +1,12 @@
 {
-  "version": "1.27.1",
+  "version": "1.28.0",
   "published": "2026-11-16",
-  "notes": "•  The right-click entries that open the camera in your browser now say so: Open Camera Interface (Web).",
+  "notes": "•  Identify now also shows where each camera records to (file server and path, or SD card) and how it is set to record: frames a second and recording mode - or that recording is switched off. Read from the camera when Identify is switched on, and refreshed every 10 minutes. On small tiles these two lines are left out to keep the label readable.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.27.1",
-  "sha256": "6adaf8571dddbd00f33be3821b348dd202edf732f4509e35b5cde814c156f1cc",
-  "size": 39948709,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.27.1",
-  "setup_sha256": "2eeff49398a94ec76f1c8cf7556cd570164b13cdf94a04aad71a33e07ca37425",
-  "setup_size": 28945173
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.28.0",
+  "sha256": "53516689cc54522ecde928fbabe03db490270f6916d6ac11c6ef4c59f1aaf0e4",
+  "size": 39954341,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.28.0",
+  "setup_sha256": "ff012a84030a6f373af496317601fc6df6672cd02ad411079278e186c80932ac",
+  "setup_size": 28953075
 }
