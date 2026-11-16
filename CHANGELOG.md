@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.24.2  (November 15, 2026)
+- Check Software Update Page now starts with the camera's date and time: the camera's clock next to this PC's, how far apart they are, and where the camera gets its time from (time server, when it last set its clock). More than 2 minutes apart is flagged as something to fix before any update.
+
 ## MxScout 1.24.1  (November 15, 2026)
 - NEW: right-click a camera > Check Software Update Page. The first step toward updating camera software (firmware) from MxScout: it reads the camera's own update page and reports the current software version and how the camera wants an update file sent. Reading only - nothing is uploaded or changed.
 
