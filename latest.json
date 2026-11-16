@@ -1,12 +1,12 @@
 {
-  "version": "1.23.0",
+  "version": "1.23.1",
   "published": "2026-11-15",
-  "notes": "•  PLAYBACK VIA CAMERA, SMOOTHER: the next recordings are now fetched ahead while one plays (more of them when you fast-forward or rewind), so playback no longer stops to load at every minute. Fast forward and rewind work through the camera now.\n•  Playback no longer pauses every two minutes while MxScout re-asks the camera what it holds - that happens in the background now.\n•  The still picture shown while a recording loads is fetched alongside the video instead of before it, so the video starts sooner.\n•  The tile's technical info shows how long the last recording took to arrive from the camera and the line speed that works out to.\n•  NEW: TIME ZONES. Each location tab has a time zone (right-click the tab > Time Zone...). Recording times on the tab - the playback bar, the timeline, the red PLAYBACK line, exports - are shown in the location's own time, so 9:00 AM means 9:00 AM there wherever you look from. When that isn't this PC's time, the zone's short name (PST, CDT ...) is written next to it and the status bar shows both clocks. Tabs left on \"Same as this PC\" work exactly as before. Daylight saving follows Windows' rules for the zone.\n•  NEW: RECORDING STORAGE (File menu). One line per camera, asked from the camera itself: space used, space given, days of recordings kept, how old the newest recording is. MxScout also checks all cameras in the background (every 30 minutes; adjustable) and shows a red warning at the bottom of the window when a camera that records all the time has stopped recording, or keeps fewer days than you ask for.",
+  "notes": "•  FIXED: bursts of loud hiss (white noise) in the sound. MxScout played every block in the camera's sound channel as sound - also blocks that hold other data, and in live view even stray bytes of the picture that looked like the start of one. Now only blocks marked as microphone sound are played.\n•  Help > Sound Check lists what was left out, so it is easy to see what a camera sends besides sound.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.23.0",
-  "sha256": "c939fb8f0885c70e67a9e3a891cf86f6e0c58dab962437726fb87bf464179f70",
-  "size": 39827365,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.23.0",
-  "setup_sha256": "495a6a78aa60a2bb200d6a5e384636ce8c67d5bc33a20976e30653087b81a7a5",
-  "setup_size": 28939533
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.23.1",
+  "sha256": "543be593fc3592ac1cbb306eea0b4904b20f1b72a3879046a54930a743ed8e97",
+  "size": 39830949,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.23.1",
+  "setup_sha256": "873dedc6060886969868c53e89c1ccd4f270c9311c7380887634ba327829afbe",
+  "setup_size": 28929402
 }
