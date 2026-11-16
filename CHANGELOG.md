@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.26.2  (November 16, 2026)
+- Camera Software Update now follows MOBOTIX's procedure for cameras with the "year 2000" fault (cameras with software 4.x that come back from every restart in the year 2000; repaired by MX-V4.7.3.11-r7). The camera's date is checked after the restart that precedes the update, and set from this PC if wrong - a camera in the wrong year refuses the update file. After the update, if the camera comes up in 2000 one more time (MOBOTIX says to expect that), MxScout offers to set the clock again and restart once more, and then reports whether the camera kept the date.
+
 ## MxScout 1.26.1  (November 16, 2026)
 - FIXED: Set Camera Clock set the clock but then showed "The server committed a protocol violation". The camera's answer to that command is not quite by the book and MxScout refused to read it. Such answers are now accepted, and success is judged by reading the camera's clock back. The same fix helps other camera commands that answer the same way.
 
