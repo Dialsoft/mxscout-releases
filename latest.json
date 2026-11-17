@@ -1,12 +1,12 @@
 {
-  "version": "1.31.5",
+  "version": "1.31.6",
   "published": "2026-11-17",
-  "notes": "•  Camera Software Update: after the restart, the report no longer puts \"Date and time: 9496 days BEHIND\" right under the two software versions, where it read as if the software's dates were being compared. The software lines now say \"(released 2026-01-07)\", and the camera's own clock gets its own clearly labelled line that says what the clock shows - for example \"WRONG - shows Fri 2000-11-17 16:36, which is 9496 days BEHIND this PC's clock\" or \"correct - shows Tue 2026-11-17 16:38, the same as this PC's clock\".",
+  "notes": "•  FIXED: after a restart, Viewer Mode had lost what viewers are allowed besides watching - no Export or Snapshot buttons, and \"MxScout can't be closed in Viewer Mode\". The ticks in Admin Mode Setup were not read back correctly from the settings file. Viewers can export and close MxScout again (unless you untick those). If you changed the ticks before, please check them once in File > Admin Mode Setup.\n•  Identify and the technical-info line are no longer shown in Viewer Mode. They are an administrator's view (addresses, recording paths), and a viewer had no button to switch them off - so a PC that restarted into Viewer Mode kept the blue boxes on every picture. They come back when you switch to Admin Mode.\n•  Identify: the box is now placed by where the picture really is inside its tile. A wide picture sits in the middle of its tile with black above it, and the box used to land on the camera's own name, date and time there.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.31.5",
-  "sha256": "d9429854deb4a42b06419e79a6a5a1d302f2a9338eaeca9d1c1e487d4b6c6d75",
-  "size": 40070053,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.31.5",
-  "setup_sha256": "0e111db001a013504f035a69df553605aea32646a412b091eb15362643584ce1",
-  "setup_size": 28977611
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.31.6",
+  "sha256": "1ba364ac77988bcb6f4d1413cae4b0786d6b408f9ccd49d53dfecb220bfefdeb",
+  "size": 40074149,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.31.6",
+  "setup_sha256": "1f4ca54bc4c3c06a586d5d18870e7ebf3b3b478c0f617cf090ea186b0740745d",
+  "setup_size": 28973773
 }
