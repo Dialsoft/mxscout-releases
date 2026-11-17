@@ -1,12 +1,12 @@
 {
-  "version": "1.29.0",
+  "version": "1.30.0",
   "published": "2026-11-16",
-  "notes": "•  NEW: Low-Resolution Grid (View menu, and in Settings). For a PC that struggles with many cameras at once: with more than one camera on screen, every camera is asked for a picture one size smaller and compressed a little harder - about a quarter of the work per picture. The grid looks softer; a camera shown alone still gets its full picture. Off unless you tick it; takes effect at once.",
+  "notes": "•  NEW: Export Camera List (File menu). Saves the camera list as an Excel workbook (.xlsx), a PDF to print or email, or a CSV text file for other programs. One line per camera: location tab, name, IP address, port, web address, MAC address, model, firmware version, login user name, whether it is reached over the internet, where it records to and at how many frames a second, its clock check, and when it was added. Choose the open tab's cameras or all of them. The Excel file has a header row that stays in view and a filter arrow on every column; the PDF is a landscape table with page numbers. Camera passwords are never written to the file.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.29.0",
-  "sha256": "900727619bf6b6f3f7404b3057e2bec96babf41a7c986fa306180c2c40725e2a",
-  "size": 39963045,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.29.0",
-  "setup_sha256": "e8583fa89cd5dc9ba4b6828bbf56fb30b833e6d6e15a21b10fd91bab9c2b4bfc",
-  "setup_size": 28980946
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.30.0",
+  "sha256": "41e51ed64eff0ba9f2ce8a03ad5f6fdd40dce1fe84edb70aaafa9bd459df35d5",
+  "size": 40001445,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.30.0",
+  "setup_sha256": "58dbe3fa444fc61d972dff61dc532ac10d2824ebe7abc4acfaa170bad4ad42ea",
+  "setup_size": 28947075
 }
