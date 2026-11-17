@@ -1,5 +1,10 @@
 # MxScout - Release Notes
 
+## MxScout 1.31.0  (November 17, 2026)
+- NEW: Viewer Mode and Admin Mode. Set an admin password (File > Admin Mode Setup) and MxScout starts in VIEWER MODE from then on: live pictures, sound and playback - nothing that changes cameras, layouts or settings; those menus and buttons are simply not there. ADMIN MODE is switched on with the password: click "Viewer Mode" at the right end of the toolbar or at the bottom of the window, or press Ctrl+Shift+A. It goes back to Viewer Mode by itself after 10 minutes without mouse or keyboard (you choose how long), and at every start.
+
+## •  NEW: Layouts on other monitors. A layout (a grid of cameras) can be opened in a window of its own and put on any monitor - for a wall of two, three, four monitors, one layout each. Three ways: right-click a layout in the Navigator > Open in New Window (as a window, or full screen on the monitor you pick); DRAG the layout out of the Navigator and let go over another monitor; or View > Open This Layout in a New Window (Ctrl+Shift+N). The window drags to any monitor by its title bar; F11 makes it fill that monitor, Esc brings the frame back; right-click in it for Move to Monitor. MxScout remembers the extra windows and opens them again on their monitors at the next start. They show live pictures (double-click one to enlarge it); playback, sound and PTZ stay in the main window.
+
 ## MxScout 1.30.0  (November 16, 2026)
 - NEW: Export Camera List (File menu). Saves the camera list as an Excel workbook (.xlsx), a PDF to print or email, or a CSV text file for other programs. One line per camera: location tab, name, IP address, port, web address, MAC address, model, firmware version, login user name, whether it is reached over the internet, where it records to and at how many frames a second, its clock check, and when it was added. Choose the open tab's cameras or all of them. The Excel file has a header row that stays in view and a filter arrow on every column; the PDF is a landscape table with page numbers. Camera passwords are never written to the file.
 
