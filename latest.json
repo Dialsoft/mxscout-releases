@@ -1,12 +1,12 @@
 {
-  "version": "1.31.1",
+  "version": "1.31.2",
   "published": "2026-11-17",
-  "notes": "•  Viewer Mode: viewers can now export video and save snapshots (the Export and Snapshot buttons, and the export commands in the menus). If viewers at one PC should not, untick \"Export video and save snapshots\" in File > Admin Mode Setup.",
+  "notes": "•  Camera Settings now makes it plain when a change has been saved. After Apply, a green banner across the bottom of the window says SAVED, how many settings, on which camera, and the time - and each setting the camera took is marked green with a check mark and \"(saved)\". A change that works only until the camera restarts gets an amber banner (CHANGED, NOT STORED); a problem gets a red one. While you are still editing, changed settings are yellow and marked \"(not sent yet)\", and the bottom line counts the changes waiting for Apply.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.31.1",
-  "sha256": "7619ba018be0a354b3b0ad77461d7d053f36e667c46eda907f0f0382d33209f4",
-  "size": 40057765,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.31.1",
-  "setup_sha256": "119e146c5ea650cd3f0887f216e14bad38284ec348ff80be2549229b22c2c100",
-  "setup_size": 28973398
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.31.2",
+  "sha256": "a51ae9dae0d9e5df65a2885e59069a86b240f6c701c2a1055d607fd74bfabb39",
+  "size": 40062885,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.31.2",
+  "setup_sha256": "8f38fda774ea5a8623ebf490f6052a429c35d361170b20b64be32fee7ffedb40",
+  "setup_size": 28979017
 }
