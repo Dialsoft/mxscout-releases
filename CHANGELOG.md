@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.31.2  (November 17, 2026)
+- Camera Settings now makes it plain when a change has been saved. After Apply, a green banner across the bottom of the window says SAVED, how many settings, on which camera, and the time - and each setting the camera took is marked green with a check mark and "(saved)". A change that works only until the camera restarts gets an amber banner (CHANGED, NOT STORED); a problem gets a red one. While you are still editing, changed settings are yellow and marked "(not sent yet)", and the bottom line counts the changes waiting for Apply.
+
 ## MxScout 1.31.1  (November 17, 2026)
 - Viewer Mode: viewers can now export video and save snapshots (the Export and Snapshot buttons, and the export commands in the menus). If viewers at one PC should not, untick "Export video and save snapshots" in File > Admin Mode Setup.
 
