@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.31.4  (November 17, 2026)
+- Camera Software Update: the last line of the report now says plainly what happened - "RESULT: SUCCESS - the camera was updated from (old version) to (new version). Date and time: correct. Nothing more to do." - in place of the vague "the camera now runs different software than before". The banner at the top says SUCCESS with both versions, and the line after the upload no longer reads like an instruction that is still open once the restart has been done.
+
 ## MxScout 1.31.3  (November 17, 2026)
 - Identify: the blue box with the model, firmware and recording details now sits a little lower on each picture, so it no longer covers the name, date and time the camera writes at the top of its own picture. (On very small pictures it moves back up only as far as it must to fit.)
 
