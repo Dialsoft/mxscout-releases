@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.30.0  (November 16, 2026)
+- NEW: Export Camera List (File menu). Saves the camera list as an Excel workbook (.xlsx), a PDF to print or email, or a CSV text file for other programs. One line per camera: location tab, name, IP address, port, web address, MAC address, model, firmware version, login user name, whether it is reached over the internet, where it records to and at how many frames a second, its clock check, and when it was added. Choose the open tab's cameras or all of them. The Excel file has a header row that stays in view and a filter arrow on every column; the PDF is a landscape table with page numbers. Camera passwords are never written to the file.
+
 ## MxScout 1.29.0  (November 16, 2026)
 - NEW: Low-Resolution Grid (View menu, and in Settings). For a PC that struggles with many cameras at once: with more than one camera on screen, every camera is asked for a picture one size smaller and compressed a little harder - about a quarter of the work per picture. The grid looks softer; a camera shown alone still gets its full picture. Off unless you tick it; takes effect at once.
 
