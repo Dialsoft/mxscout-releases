@@ -1,12 +1,12 @@
 {
-  "version": "1.31.4",
+  "version": "1.31.5",
   "published": "2026-11-17",
-  "notes": "•  Camera Software Update: the last line of the report now says plainly what happened - \"RESULT: SUCCESS - the camera was updated from (old version) to (new version). Date and time: correct. Nothing more to do.\" - in place of the vague \"the camera now runs different software than before\". The banner at the top says SUCCESS with both versions, and the line after the upload no longer reads like an instruction that is still open once the restart has been done.",
+  "notes": "•  Camera Software Update: after the restart, the report no longer puts \"Date and time: 9496 days BEHIND\" right under the two software versions, where it read as if the software's dates were being compared. The software lines now say \"(released 2026-01-07)\", and the camera's own clock gets its own clearly labelled line that says what the clock shows - for example \"WRONG - shows Fri 2000-11-17 16:36, which is 9496 days BEHIND this PC's clock\" or \"correct - shows Tue 2026-11-17 16:38, the same as this PC's clock\".",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.31.4",
-  "sha256": "6900b9187de9f531eaa470de515c0448806f28a181269262e3355a62a3e1ab9a",
-  "size": 40066981,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.31.4",
-  "setup_sha256": "ed10476837af89db025bf5f98573dca831793fc1c95d0a2cde807987a0bbd185",
-  "setup_size": 28971497
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.31.5",
+  "sha256": "d9429854deb4a42b06419e79a6a5a1d302f2a9338eaeca9d1c1e487d4b6c6d75",
+  "size": 40070053,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.31.5",
+  "setup_sha256": "0e111db001a013504f035a69df553605aea32646a412b091eb15362643584ce1",
+  "setup_size": 28977611
 }
