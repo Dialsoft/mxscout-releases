@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.31.3  (November 17, 2026)
+- Identify: the blue box with the model, firmware and recording details now sits a little lower on each picture, so it no longer covers the name, date and time the camera writes at the top of its own picture. (On very small pictures it moves back up only as far as it must to fit.)
+
 ## MxScout 1.31.2  (November 17, 2026)
 - Camera Settings now makes it plain when a change has been saved. After Apply, a green banner across the bottom of the window says SAVED, how many settings, on which camera, and the time - and each setting the camera took is marked green with a check mark and "(saved)". A change that works only until the camera restarts gets an amber banner (CHANGED, NOT STORED); a problem gets a red one. While you are still editing, changed settings are yellow and marked "(not sent yet)", and the bottom line counts the changes waiting for Apply.
 
