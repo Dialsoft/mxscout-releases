@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.31.5  (November 17, 2026)
+- Camera Software Update: after the restart, the report no longer puts "Date and time: 9496 days BEHIND" right under the two software versions, where it read as if the software's dates were being compared. The software lines now say "(released 2026-01-07)", and the camera's own clock gets its own clearly labelled line that says what the clock shows - for example "WRONG - shows Fri 2000-11-17 16:36, which is 9496 days BEHIND this PC's clock" or "correct - shows Tue 2026-11-17 16:38, the same as this PC's clock".
+
 ## MxScout 1.31.4  (November 17, 2026)
 - Camera Software Update: the last line of the report now says plainly what happened - "RESULT: SUCCESS - the camera was updated from (old version) to (new version). Date and time: correct. Nothing more to do." - in place of the vague "the camera now runs different software than before". The banner at the top says SUCCESS with both versions, and the line after the upload no longer reads like an instruction that is still open once the restart has been done.
 
