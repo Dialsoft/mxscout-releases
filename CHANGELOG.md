@@ -1,5 +1,10 @@
 # MxScout - Release Notes
 
+## MxScout 1.31.6  (November 17, 2026)
+- FIXED: after a restart, Viewer Mode had lost what viewers are allowed besides watching - no Export or Snapshot buttons, and "MxScout can't be closed in Viewer Mode". The ticks in Admin Mode Setup were not read back correctly from the settings file. Viewers can export and close MxScout again (unless you untick those). If you changed the ticks before, please check them once in File > Admin Mode Setup.
+- Identify and the technical-info line are no longer shown in Viewer Mode. They are an administrator's view (addresses, recording paths), and a viewer had no button to switch them off - so a PC that restarted into Viewer Mode kept the blue boxes on every picture. They come back when you switch to Admin Mode.
+- Identify: the box is now placed by where the picture really is inside its tile. A wide picture sits in the middle of its tile with black above it, and the box used to land on the camera's own name, date and time there.
+
 ## MxScout 1.31.5  (November 17, 2026)
 - Camera Software Update: after the restart, the report no longer puts "Date and time: 9496 days BEHIND" right under the two software versions, where it read as if the software's dates were being compared. The software lines now say "(released 2026-01-07)", and the camera's own clock gets its own clearly labelled line that says what the clock shows - for example "WRONG - shows Fri 2000-11-17 16:36, which is 9496 days BEHIND this PC's clock" or "correct - shows Tue 2026-11-17 16:38, the same as this PC's clock".
 
