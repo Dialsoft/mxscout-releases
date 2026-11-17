@@ -1,12 +1,12 @@
 {
-  "version": "1.31.0",
+  "version": "1.31.1",
   "published": "2026-11-17",
-  "notes": "•  NEW: Viewer Mode and Admin Mode. Set an admin password (File > Admin Mode Setup) and MxScout starts in VIEWER MODE from then on: live pictures, sound and playback - nothing that changes cameras, layouts or settings; those menus and buttons are simply not there. ADMIN MODE is switched on with the password: click \"Viewer Mode\" at the right end of the toolbar or at the bottom of the window, or press Ctrl+Shift+A. It goes back to Viewer Mode by itself after 10 minutes without mouse or keyboard (you choose how long), and at every start.\n     Forgot the password? When the password is set, MxScout shows a RECOVERY KEY to keep somewhere safe; \"Forgot the password?\" in the password window takes that key and lets you choose a new password. With no key either, an IT person can start MxScout once with  MxScout.exe --reset-admin  to remove the password.\n     In Admin Mode Setup you also tick what viewers may do besides watching: export video and snapshots, move the cameras (PTZ), use the softbuttons, close MxScout.\n     Until a password is set nothing changes: MxScout is in Admin Mode, and says \"Admin Mode (no password set)\" at the bottom of the window.",
+  "notes": "•  Viewer Mode: viewers can now export video and save snapshots (the Export and Snapshot buttons, and the export commands in the menus). If viewers at one PC should not, untick \"Export video and save snapshots\" in File > Admin Mode Setup.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.31.0",
-  "sha256": "a8286975b2a4d1eaac3ccaf1717386d18a03d4d64e6c15433f8cb5d4e9673054",
-  "size": 40056741,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.31.0",
-  "setup_sha256": "e4dd8c746bb66a71737ccf7e80bdeeb143a34581b030973d9847a4feec51fcd0",
-  "setup_size": 28973741
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.31.1",
+  "sha256": "7619ba018be0a354b3b0ad77461d7d053f36e667c46eda907f0f0382d33209f4",
+  "size": 40057765,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.31.1",
+  "setup_sha256": "119e146c5ea650cd3f0887f216e14bad38284ec348ff80be2549229b22c2c100",
+  "setup_size": 28973398
 }
