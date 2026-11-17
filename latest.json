@@ -1,12 +1,12 @@
 {
-  "version": "1.31.3",
+  "version": "1.31.4",
   "published": "2026-11-17",
-  "notes": "•  Identify: the blue box with the model, firmware and recording details now sits a little lower on each picture, so it no longer covers the name, date and time the camera writes at the top of its own picture. (On very small pictures it moves back up only as far as it must to fit.)",
+  "notes": "•  Camera Software Update: the last line of the report now says plainly what happened - \"RESULT: SUCCESS - the camera was updated from (old version) to (new version). Date and time: correct. Nothing more to do.\" - in place of the vague \"the camera now runs different software than before\". The banner at the top says SUCCESS with both versions, and the line after the upload no longer reads like an instruction that is still open once the restart has been done.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.31.3",
-  "sha256": "e679d32117a2083f62db7a5dfc27a371cd2862ff9d102c9bb213e6ce67f04727",
-  "size": 40063909,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.31.3",
-  "setup_sha256": "b1e1b0c822db87de1b1b8892083cd00ff1b04794f6567bff09cef41c8a4ea3d1",
-  "setup_size": 28976248
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.31.4",
+  "sha256": "6900b9187de9f531eaa470de515c0448806f28a181269262e3355a62a3e1ab9a",
+  "size": 40066981,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.31.4",
+  "setup_sha256": "ed10476837af89db025bf5f98573dca831793fc1c95d0a2cde807987a0bbd185",
+  "setup_size": 28971497
 }
