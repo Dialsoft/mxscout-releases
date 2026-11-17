@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.31.1  (November 17, 2026)
+- Viewer Mode: viewers can now export video and save snapshots (the Export and Snapshot buttons, and the export commands in the menus). If viewers at one PC should not, untick "Export video and save snapshots" in File > Admin Mode Setup.
+
 ## MxScout 1.31.0  (November 17, 2026)
 - NEW: Viewer Mode and Admin Mode. Set an admin password (File > Admin Mode Setup) and MxScout starts in VIEWER MODE from then on: live pictures, sound and playback - nothing that changes cameras, layouts or settings; those menus and buttons are simply not there. ADMIN MODE is switched on with the password: click "Viewer Mode" at the right end of the toolbar or at the bottom of the window, or press Ctrl+Shift+A. It goes back to Viewer Mode by itself after 10 minutes without mouse or keyboard (you choose how long), and at every start.
 
