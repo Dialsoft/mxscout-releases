@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.32.2  (November 17, 2026)
+- Camera Accounts now reads only the cameras on the location tab that is open, instead of every camera in MxScout. A tick box "All location tabs" at the bottom reads them all when you want that.
+
 ## MxScout 1.32.1  (November 17, 2026)
 - Camera Accounts: fixed cameras that use Digest login being wrongly refused (the admin read now does the same Digest handshake the firmware and clock features do). It also now tries the camera's "Users and Passwords" admin page when the configuration API is off, and - importantly - "Show the raw list" now shows exactly what each camera answered, even when the accounts couldn't be read, so the format can be sent to Dialsoft.
 
