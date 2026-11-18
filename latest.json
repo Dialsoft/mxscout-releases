@@ -1,12 +1,12 @@
 {
-  "version": "1.32.2",
+  "version": "1.32.3",
   "published": "2026-11-17",
-  "notes": "•  Camera Accounts now reads only the cameras on the location tab that is open, instead of every camera in MxScout. A tick box \"All location tabs\" at the bottom reads them all when you want that.",
+  "notes": "•  The mode button at the top right now reads \"Currently in Admin Mode\" or \"Currently in Viewer Mode\" in full, instead of just the two words.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.32.2",
-  "sha256": "111d88cc4d60f73917ff8e8ca6427607469dc85c40a062ebbedfa2c8f8591415",
-  "size": 40104357,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.32.2",
-  "setup_sha256": "a21bec64627fc77745a39af0affeb4673eea60068e9d0b3a36374f56878e9889",
-  "setup_size": 29007585
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.32.3",
+  "sha256": "cd0b1c2a52ed37c1ea4303e71e66b88c681691c1dfdcd273a820e8891db57db4",
+  "size": 40104869,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.32.3",
+  "setup_sha256": "d667b6393ae7038c67aa7fe58b8bf35de916045d20a211d05f607207559a82ad",
+  "setup_size": 28993919
 }
