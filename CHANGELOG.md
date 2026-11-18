@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.32.3  (November 17, 2026)
+- The mode button at the top right now reads "Currently in Admin Mode" or "Currently in Viewer Mode" in full, instead of just the two words.
+
 ## MxScout 1.32.2  (November 17, 2026)
 - Camera Accounts now reads only the cameras on the location tab that is open, instead of every camera in MxScout. A tick box "All location tabs" at the bottom reads them all when you want that.
 
