@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.32.1  (November 17, 2026)
+- Camera Accounts: fixed cameras that use Digest login being wrongly refused (the admin read now does the same Digest handshake the firmware and clock features do). It also now tries the camera's "Users and Passwords" admin page when the configuration API is off, and - importantly - "Show the raw list" now shows exactly what each camera answered, even when the accounts couldn't be read, so the format can be sent to Dialsoft.
+
 ## MxScout 1.32.0  (November 17, 2026)
 - NEW: Camera Accounts (File menu, Admin Mode). Logged in as the admin, MxScout lists the login accounts on every camera and the access level each one has - Supervisor (full admin), User, or Guest (view only) - grouped by camera. It flags the things worth finding in an audit: an account with NO password (shown in red), a password kept by a weak old method (amber), and cameras it could not log in to. Copy the table or save it as a CSV for Excel.
 
