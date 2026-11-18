@@ -1,12 +1,12 @@
 {
-  "version": "1.31.6",
+  "version": "1.32.0",
   "published": "2026-11-17",
-  "notes": "•  FIXED: after a restart, Viewer Mode had lost what viewers are allowed besides watching - no Export or Snapshot buttons, and \"MxScout can't be closed in Viewer Mode\". The ticks in Admin Mode Setup were not read back correctly from the settings file. Viewers can export and close MxScout again (unless you untick those). If you changed the ticks before, please check them once in File > Admin Mode Setup.\n•  Identify and the technical-info line are no longer shown in Viewer Mode. They are an administrator's view (addresses, recording paths), and a viewer had no button to switch them off - so a PC that restarted into Viewer Mode kept the blue boxes on every picture. They come back when you switch to Admin Mode.\n•  Identify: the box is now placed by where the picture really is inside its tile. A wide picture sits in the middle of its tile with black above it, and the box used to land on the camera's own name, date and time there.",
+  "notes": "•  NEW: Camera Accounts (File menu, Admin Mode). Logged in as the admin, MxScout lists the login accounts on every camera and the access level each one has - Supervisor (full admin), User, or Guest (view only) - grouped by camera. It flags the things worth finding in an audit: an account with NO password (shown in red), a password kept by a weak old method (amber), and cameras it could not log in to. Copy the table or save it as a CSV for Excel.\n     It does NOT show the passwords, and cannot: MOBOTIX cameras store each password as a one-way hash that the camera itself cannot turn back into text. MxScout can tell you which accounts exist and whether each has a password, and it can SET a new password - but reading an existing one back is not possible on any tool. Nothing is written to the camera by this window.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.31.6",
-  "sha256": "1ba364ac77988bcb6f4d1413cae4b0786d6b408f9ccd49d53dfecb220bfefdeb",
-  "size": 40074149,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.31.6",
-  "setup_sha256": "1f4ca54bc4c3c06a586d5d18870e7ebf3b3b478c0f617cf090ea186b0740745d",
-  "setup_size": 28973773
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.32.0",
+  "sha256": "5e2246bea3df9d0275ecdf31115c6dd3f4bb64d34156b483b8e423a0c8ed9b21",
+  "size": 40098213,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.32.0",
+  "setup_sha256": "b1ebabc5a5789fddb83bef5aaba8b1ee0e33b223687a8d4ec15e1557112a9eb9",
+  "setup_size": 29004854
 }
