@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.32.0  (November 17, 2026)
+- NEW: Camera Accounts (File menu, Admin Mode). Logged in as the admin, MxScout lists the login accounts on every camera and the access level each one has - Supervisor (full admin), User, or Guest (view only) - grouped by camera. It flags the things worth finding in an audit: an account with NO password (shown in red), a password kept by a weak old method (amber), and cameras it could not log in to. Copy the table or save it as a CSV for Excel.
+
 ## MxScout 1.31.6  (November 17, 2026)
 - FIXED: after a restart, Viewer Mode had lost what viewers are allowed besides watching - no Export or Snapshot buttons, and "MxScout can't be closed in Viewer Mode". The ticks in Admin Mode Setup were not read back correctly from the settings file. Viewers can export and close MxScout again (unless you untick those). If you changed the ticks before, please check them once in File > Admin Mode Setup.
 - Identify and the technical-info line are no longer shown in Viewer Mode. They are an administrator's view (addresses, recording paths), and a viewer had no button to switch them off - so a PC that restarted into Viewer Mode kept the blue boxes on every picture. They come back when you switch to Admin Mode.
