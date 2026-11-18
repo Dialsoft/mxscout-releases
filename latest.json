@@ -1,12 +1,12 @@
 {
-  "version": "1.32.3",
+  "version": "1.32.4",
   "published": "2026-11-17",
-  "notes": "•  The mode button at the top right now reads \"Currently in Admin Mode\" or \"Currently in Viewer Mode\" in full, instead of just the two words.",
+  "notes": "•  FIXED: the \"Update now\" bar could get stuck when a newer build had been published since the bar appeared - it kept trying to install the version the bar first named and failed on a size/checksum mismatch. MxScout now re-reads the release list the moment you click Update now and installs whatever is newest right then. If a newer build has already been installed, it simply says you are up to date instead of failing.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.32.3",
-  "sha256": "cd0b1c2a52ed37c1ea4303e71e66b88c681691c1dfdcd273a820e8891db57db4",
-  "size": 40104869,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.32.3",
-  "setup_sha256": "d667b6393ae7038c67aa7fe58b8bf35de916045d20a211d05f607207559a82ad",
-  "setup_size": 28993919
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.32.4",
+  "sha256": "0c1fcfcd0b2f8de23b80ad4fe210225dac276b1a93068f20bafda7d91ae0f7d5",
+  "size": 40107429,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.32.4",
+  "setup_sha256": "416fd69f31d91a4f12db607a573ffb04049e12ca2a00881e75c5a7d135177501",
+  "setup_size": 28974970
 }
