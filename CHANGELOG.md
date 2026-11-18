@@ -1,5 +1,8 @@
 # MxScout - Release Notes
 
+## MxScout 1.32.4  (November 17, 2026)
+- FIXED: the "Update now" bar could get stuck when a newer build had been published since the bar appeared - it kept trying to install the version the bar first named and failed on a size/checksum mismatch. MxScout now re-reads the release list the moment you click Update now and installs whatever is newest right then. If a newer build has already been installed, it simply says you are up to date instead of failing.
+
 ## MxScout 1.32.3  (November 17, 2026)
 - The mode button at the top right now reads "Currently in Admin Mode" or "Currently in Viewer Mode" in full, instead of just the two words.
 
