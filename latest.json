@@ -1,12 +1,12 @@
 {
-  "version": "1.32.1",
+  "version": "1.32.2",
   "published": "2026-11-17",
-  "notes": "•  Camera Accounts: fixed cameras that use Digest login being wrongly refused (the admin read now does the same Digest handshake the firmware and clock features do). It also now tries the camera's \"Users and Passwords\" admin page when the configuration API is off, and - importantly - \"Show the raw list\" now shows exactly what each camera answered, even when the accounts couldn't be read, so the format can be sent to Dialsoft.",
+  "notes": "•  Camera Accounts now reads only the cameras on the location tab that is open, instead of every camera in MxScout. A tick box \"All location tabs\" at the bottom reads them all when you want that.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe",
-  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.32.1",
-  "sha256": "163d27e561a2233682a9abbb63d7abba93eb1e4bc8fcb602b279e13dce36dacd",
-  "size": 40102821,
-  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.32.1",
-  "setup_sha256": "1e27379cef051b7130b26d4a5a935219e2ee7cc8876bc385566f82cf436026e7",
-  "setup_size": 28999635
+  "url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout.exe?v=1.32.2",
+  "sha256": "111d88cc4d60f73917ff8e8ca6427607469dc85c40a062ebbedfa2c8f8591415",
+  "size": 40104357,
+  "setup_url": "https://raw.githubusercontent.com/Dialsoft/mxscout-releases/main/MxScout-Setup.exe?v=1.32.2",
+  "setup_sha256": "a21bec64627fc77745a39af0affeb4673eea60068e9d0b3a36374f56878e9889",
+  "setup_size": 29007585
 }
