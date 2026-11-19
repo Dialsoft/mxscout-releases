@@ -1,5 +1,9 @@
 # MxScout - Release Notes
 
+## MxScout 1.33.0  (November 19, 2026)
+- FIXED: Viewer Mode / Admin Mode could differ depending on how MxScout was started - "Run as administrator" started in Viewer Mode, a normal launch in Admin Mode. The admin password was kept per Windows user, and "Run as administrator" can run under a different Windows account. When you set or change the admin password there is now a tick box "Apply to all users of this PC": the lock is then stored machine-wide, every Windows account starts in Viewer Mode, and the same password unlocks it. Setting it this way needs MxScout to be run as administrator once. Admin Mode Setup now says whether the lock is for all users or only for the current Windows user.
+- Saving settings no longer fails silently: if the admin password can't be written (or doesn't stick), MxScout says so instead of losing it.
+
 ## MxScout 1.32.4  (November 17, 2026)
 - FIXED: the "Update now" bar could get stuck when a newer build had been published since the bar appeared - it kept trying to install the version the bar first named and failed on a size/checksum mismatch. MxScout now re-reads the release list the moment you click Update now and installs whatever is newest right then. If a newer build has already been installed, it simply says you are up to date instead of failing.
 
